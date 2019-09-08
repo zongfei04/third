@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>004原型继承拖拽.html</title>
+</head>
+<body>
+	
+</body>
+<script>
+	function Drag(options){
+		this.width = options.width;
+		this.height = options.height;
+		this.backgroundColor = options.backgroundColor;
+
+		this.init();
+
+		this.bindEvent();
+	}
+	Drag.prototype.init = function(){
+		this.oBox = document.createElement('div')
+		this.oBox.style.width = this.width+'px';
+		this.oBox.style.height = this.height+'px';
+		this.oBox.style.backgroundColor = 'red';
+		this.oBox.style.left = '0px' 
+		this.oBox.style.top = '0px' 
+		document.body.appendChild(this.oBox)
+	}
+		
+	Drag.prototype.bindEvent = function(){
+		this.oBox.onmousedown = function(ev){
+			var oEv = ev || event;
+			this.oBox.style.left = oEv.clientX - 
+		}
+	}
+
+	new Drag({
+		width:200,
+		height:200,
+		backgroundColor:'red'	
+	})
+</script>
+</html>
