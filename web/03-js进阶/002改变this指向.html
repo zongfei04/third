@@ -8,10 +8,13 @@
 			console.log(this,n1,n2)
 		}
 		show(1,2);
-		show.call(('name = tom'),1,2)
-		show.apply(('name = jery'),[1,2])
-		// show.bind({},(1,2))
-		
+		window.show(1,2)
+		show.call((name = "jery"),1,2)
+		show.call(window,1,2)
+		show.apply((name = "jery"),[1,2])
+		show.apply(window,[1,2])
+		show.bind(name = "jery")(1,2)
+		show.bind(window)(1,2)
 	</script>
 </head>
 <body>
