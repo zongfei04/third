@@ -5,6 +5,14 @@ time();
 top2M();
 top5up();
 top8R();
+
+// var oTop2 = document.querySelector('.top2 .top2-r input')
+// oTop2.onclick = function(){
+// 	oTop2.style.borderColor = '#ff6700'
+// }
+
+
+
 //左菜单
 function top3L(){
 	var oTopul = document.querySelector('.top3-ul');
@@ -22,11 +30,16 @@ function top3L(){
 			oSon2.style.display = 'block';
 			load3Data(this.index);
 		}
+		
 		oTopul.onmouseleave = function(){
-			this.style.backgroundColor = 'rgba(0,0,0,0.5)';
+			for(var j=0;j<aLi1.length;j++){
+				aLi1[j].style.backgroundColor = 'rgba(0,0,0,0)';
+				
+			}
 			handtime = setTimeout(function(){
 				oSon2.style.display = 'none';
 			},500);
+			
 		}
 		oSon2.onmouseenter = function(){
 			clearTimeout(handtime);
@@ -50,7 +63,6 @@ function top3L(){
 			html += '</li>';
 		}
 		html += '</ul>';
-		console.log(data.length)
 		oSon2.innerHTML = html;
 	}
 }
@@ -58,7 +70,7 @@ function top3L(){
 function top1R(){
 	var oCart = document.querySelector('.top1-r-shopping')
 	var oBox = document.querySelector('.top1-cartbox')
-	var oLoader = document.querySelector('#loader')
+	var oLoader = document.querySelector('.top1-cartbox #loader')
 	var oSpan1 = document.querySelector('.top1-cartbox span')
 	var timer1 = 0;
 
@@ -121,30 +133,41 @@ function time(){
 function top2M(){
 	var oUl1 = document.querySelector('.top2-ul')
 	var oUl2 = document.querySelector('.top2-ul-down')
+	// var oLoader = document.querySelector('.top2-ul-down #loader')
 	// var oDataBox = oUl2.querySelector('')
 	var aLi1 = oUl1.children
 	var handTime = 0;
 	for(var i=0;i<aLi1.length-2;i++){
 		aLi1[i].index = i;
 		aLi1[i].onmouseenter = function(){
-			handout();
-			loadData(this.index);
+			oUl2.innerHTML = '<div id="loader"></div>'
+			clearTimeout(handTime)
+			animation(oUl2,{height:230},true);
+			oUl2.style.borderTop = '1px solid #ccc';
+			var index = this.index;
+			setTimeout(function(){
+				loadData(index);
+			},500)
+			
 		}
 		aLi1[i].onmouseleave = function(){
 			handin();
 		}
 	}
 	oUl2.onmouseenter = function(){
-		handout();
-	}
-	oUl2.onmouseleave = function(){
-		handin();
-	}
-	function handout(){
 		clearTimeout(handTime)
 		animation(oUl2,{height:230},true);
 		oUl2.style.borderTop = '1px solid #ccc';
 	}
+	oUl2.onmouseleave = function(){
+		handin();
+	}
+	// function handout(){
+	// 	clearTimeout(handTime)
+	// 	// oLoader.style.display = 'block';
+	// 	animation(oUl2,{height:230},true);
+	// 	oUl2.style.borderTop = '1px solid #ccc';
+	// }
 	function handin(){
 		handTime = setTimeout(function(){
 			animation(oUl2,{height:0},true,function(){
@@ -188,11 +211,28 @@ function top5up(){
 	}
 }
 function top8R(){
+
 	var oTop8 = document.querySelector('.top8 .top8-up .top8-up-r ul')
-	var oTop8Down = document.querySelector('.top8 .top8-down .down-right')
+	var oTop8Down = document.querySelector('.top8 .top8-down .down-right .top8-data')
+	loadData8(0);
 	var aLi8Down = oTop8Down.children;
-	console.log(oTop8Down)
 	var aLi8 = oTop8.children;
+	var aPl = document.querySelectorAll('.top8-down .down-right .top8-data .pl');
+	
+		console.log(aPl);
+
+	// for(var i=0;i<aLi8Down.length;i++){
+
+	// 	aLi8Down[i].onmouseenter = function(){
+	// 	aPl[i].style.width = '78px';
+		
+	// 	}
+		
+	// 	for(var j=0;j<aPl.length;j++){
+	// 		aPl[j].style.width = '0px';
+	// 	}
+
+	// }
 	for(var i=0;i<aLi8.length;i++){
 		aLi8[i].index = i;
 		aLi8[i].onmouseenter = function(){
@@ -205,31 +245,53 @@ function top8R(){
 			loadData8(this.index);
 		}
 	}
-	console.log('isError')
 	function loadData8(index){
-		console.log(index)
 		var data = aTop8data[index]
 		var html = '';
 
-		// for(var i=0;i<data.length;i++){
-		// 	html += '<li class="top8-li">';
-		// 	// html += '	<span class="flag-jian">'+data[i].flag+'</span>';
-		// 	html += '	<a href="'+data[i].url+'">';
-		// 	html += '		<img src="'+data[i].img+'" alt="">';
-		// 	html += '		<p class="down-right-name">'+data[i].name+'</p>';
-		// 	html += '	</a>';
-		// 	html += '	<p class="top5-de down-right-de">'+data[i].des+'</p>';
-		// 	html += '	<p class="top5-jia down-right-jia"><span>'+data[i].price+'</span><del>'+data[i].del+'</del></p>';
-		// 	if(data[i].pl){
-		// 		html += '	<div class="pl">';
-		// 		html += '		<p class="pl-con">'+data[i].pl.content+'</p>';
-		// 		html += '		<p class="pl-na">来自于<span>'+data[i].pl.author+'</span>的评论</p>';
-		// 		html += '	</div>';
-		// 	}
-		// 	html += '</li>';
-		// }
-		// oTop8Down.innerHTML = html;
+		for(var i=0;i<data.length-1;i++){
+			html += '<li class="top8-li">';
+			if(data[i].flag){
+				html += '	<span class="flag">'+data[i].flag+'</span>';
+			} 
+			if(data[i].flagJ){
+				html += '	<span class="flag-jian">'+data[i].flagJ+'</span>';
+			}
+			if(data[i].flagN){
+				html += '	<span class="flag-new">'+data[i].flagN+'</span>';
+			}
+			
+			html += '	<a href="'+data[i].url+'">';
+			html += '		<img src="'+data[i].img+'" alt="">';
+			html += '		<p class="down-right-name">'+data[i].name+'</p>';
+			html += '	</a>';
+			html += '	<p class="top5-de down-right-de">'+data[i].des+'</p>';
+			html += '	<p class="top5-jia down-right-jia"><span>'+data[i].price+'</span><del>'+data[i].del+'</del></p>';
+			if(data[i].pl){
+				html += '	<div class="pl">';
+				html += '		<p class="pl-con">'+data[i].pl.content+'</p>';
+				html += '		<p class="pl-na">来自于<span>'+data[i].pl.author+'</span>的评论</p>';
+				html += '	</div>';
+			}
+			html += '</li>';
+		}
+		var lastData = data[data.length-1]
+
+		html +='<li class="down-r-mix1">';
+		html +='	<a href="'+lastData.top.url+'"><p class="name">'+lastData.top.name+'</p></a>';
+		html +='	<p class="top5-jia"><span>'+lastData.top.price+'</span></p>';
+		html +='	<a href="javascript:;"><img src="'+lastData.top.img+'" alt=""></a>';
+		html +='</li>';
+		html +='<li class="down-r-mix2">';
+		html +='	<a href="'+lastData.bottom.url+'">';
+		html +='		<p>'+lastData.bottom.name+'<br><span>'+lastData.bottom.price+'</span></p>';
+		html +='		<i class="iconfont">'+lastData.bottom.ides+'</i>';
+		html +='	</a>';
+		html +='</li>';
+
+
+		oTop8Down.innerHTML = html;
 	}
-	// loadData8(0);
+	
 
 }

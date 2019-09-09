@@ -1178,9 +1178,9 @@ var aTop8data = [
 		img:"images/jiadian01.jpg",
 		name:"小米电视4A 32英寸",
 		des:"64位四核处理器/1GB+4GB大内存",
-		price:"699元",
+		price:"1699元",
 		del:"799元",
-		flag:'立减200元',
+		flagJ:'立减200元',
 		pl:{
 			content:"我是当评论的，谢谢",
 			author:"奥特曼"
@@ -1191,7 +1191,20 @@ var aTop8data = [
 		img:"images/jiadian01.jpg",
 		name:"小米电视4A 32英寸",
 		des:"64位四核处理器/1GB+4GB大内存",
-		price:"699元",
+		price:"1699元",
+		del:"799元",
+		flagN:'新品',
+		pl:{
+			content:"我是当评论的，谢谢",
+			author:"奥特曼"
+			}
+		},
+		{
+		url:"https://www.kuazhu.con",
+		img:"images/jiadian01.jpg",
+		name:"小米电视4A 32英寸",
+		des:"64位四核处理器/1GB+4GB大内存",
+		price:"1699元",
 		del:"799元",
 		flag:'立减200元',
 		pl:{
@@ -1204,9 +1217,9 @@ var aTop8data = [
 		img:"images/jiadian01.jpg",
 		name:"小米电视4A 32英寸",
 		des:"64位四核处理器/1GB+4GB大内存",
-		price:"699元",
+		price:"1699元",
 		del:"799元",
-		flag:'立减200元',
+		flagJ:'立减200元',
 		pl:{
 			content:"我是当评论的，谢谢",
 			author:"奥特曼"
@@ -1217,7 +1230,33 @@ var aTop8data = [
 		img:"images/jiadian01.jpg",
 		name:"小米电视4A 32英寸",
 		des:"64位四核处理器/1GB+4GB大内存",
-		price:"699元",
+		price:"1699元",
+		del:"799元",
+		flag:'立减200元',
+		// pl:{
+		// 	content:"我是当评论的，谢谢",
+		// 	author:"奥特曼"
+		// 	}
+		},
+		{
+		url:"https://www.kuazhu.con",
+		img:"images/jiadian01.jpg",
+		name:"小米电视4A 32英寸",
+		des:"64位四核处理器/1GB+4GB大内存",
+		price:"1699元",
+		del:"799元",
+		flagN:'立减200元',
+		// pl:{
+		// 	content:"我是当评论的，谢谢",
+		// 	author:"奥特曼"
+		// 	}
+		},
+		{
+		url:"https://www.kuazhu.con",
+		img:"images/jiadian01.jpg",
+		name:"小米电视4A 32英寸",
+		des:"64位四核处理器/1GB+4GB大内存",
+		price:"1699元",
 		del:"799元",
 		flag:'立减200元',
 		pl:{
@@ -1225,43 +1264,18 @@ var aTop8data = [
 			author:"奥特曼"
 			}
 		},
-		{
-		url:"https://www.kuazhu.con",
-		img:"images/jiadian01.jpg",
-		name:"小米电视4A 32英寸",
-		des:"64位四核处理器/1GB+4GB大内存",
-		price:"699元",
-		del:"799元",
-		flag:'立减200元',
-		pl:{
-			content:"我是当评论的，谢谢",
-			author:"奥特曼"
-			}
-		},
-		{
-		url:"https://www.kuazhu.con",
-		img:"images/jiadian01.jpg",
-		name:"小米电视4A 32英寸",
-		des:"64位四核处理器/1GB+4GB大内存",
-		price:"699元",
-		del:"799元",
-		flag:'立减200元',
-		pl:{
-			content:"我是当评论的，谢谢",
-			author:"奥特曼"
-			}
-		},
-		{
-		url:"https://www.kuazhu.con",
-		img:"images/jiadian01.jpg",
-		name:"小米电视4A 32英寸",
-		des:"64位四核处理器/1GB+4GB大内存",
-		price:"699元",
-		del:"799元",
-		flag:'立减200元',
-		pl:{
-			content:"我是当评论的，谢谢",
-			author:"奥特曼"
+		{		
+			top:{
+				url:"https://www.kuazhu.con",
+				price:"299元",
+				name:"米家电烤箱",
+				img:"images/dkx.jpg"
+			},
+			bottom:{
+				url:"https://www.kuazhu.con",
+				price:"热门",
+				name:"浏览更多",
+				ides:"&#xe615;"
 			}
 		}
 	],
@@ -1271,7 +1285,7 @@ var aTop8data = [
 		img:"images/jiadian01.jpg",
 		name:"小米电视4A 32英寸",
 		des:"64位四核处理器/1GB+4GB大内存",
-		price:"699元",
+		price:"2699元",
 		del:"799元",
 		flag:'立减200元',
 		pl:{
@@ -1284,7 +1298,7 @@ var aTop8data = [
 		img:"images/jiadian01.jpg",
 		name:"小米电视4A 32英寸",
 		des:"64位四核处理器/1GB+4GB大内存",
-		price:"699元",
+		price:"2699元",
 		del:"799元",
 		flag:'立减200元',
 		pl:{
@@ -1297,7 +1311,7 @@ var aTop8data = [
 		img:"images/jiadian01.jpg",
 		name:"小米电视4A 32英寸",
 		des:"64位四核处理器/1GB+4GB大内存",
-		price:"699元",
+		price:"2699元",
 		del:"799元",
 		flag:'立减200元',
 		pl:{
@@ -1310,7 +1324,7 @@ var aTop8data = [
 		img:"images/jiadian01.jpg",
 		name:"小米电视4A 32英寸",
 		des:"64位四核处理器/1GB+4GB大内存",
-		price:"699元",
+		price:"2699元",
 		del:"799元",
 		flag:'立减200元',
 		pl:{
@@ -1323,7 +1337,7 @@ var aTop8data = [
 		img:"images/jiadian01.jpg",
 		name:"小米电视4A 32英寸",
 		des:"64位四核处理器/1GB+4GB大内存",
-		price:"699元",
+		price:"2699元",
 		del:"799元",
 		flag:'立减200元',
 		pl:{
@@ -1336,7 +1350,7 @@ var aTop8data = [
 		img:"images/jiadian01.jpg",
 		name:"小米电视4A 32英寸",
 		des:"64位四核处理器/1GB+4GB大内存",
-		price:"699元",
+		price:"2699元",
 		del:"799元",
 		flag:'立减200元',
 		pl:{
@@ -1349,12 +1363,26 @@ var aTop8data = [
 		img:"images/jiadian01.jpg",
 		name:"小米电视4A 32英寸",
 		des:"64位四核处理器/1GB+4GB大内存",
-		price:"699元",
+		price:"2699元",
 		del:"799元",
 		flag:'立减200元',
 		pl:{
 			content:"我是当评论的，谢谢",
 			author:"奥特曼"
+			}
+		},
+		{		
+			top:{
+				url:"https://www.kuazhu.con",
+				price:"299元",
+				name:"米家电烤箱",
+				img:"images/dkx.jpg"
+			},
+			bottom:{
+				url:"https://www.kuazhu.con",
+				price:"热门",
+				name:"浏览更多",
+				ides:"&#xe615;"
 			}
 		}
 	],
@@ -1364,7 +1392,7 @@ var aTop8data = [
 		img:"images/jiadian01.jpg",
 		name:"小米电视4A 32英寸",
 		des:"64位四核处理器/1GB+4GB大内存",
-		price:"699元",
+		price:"3699元",
 		del:"799元",
 		flag:'立减200元',
 		pl:{
@@ -1377,7 +1405,7 @@ var aTop8data = [
 		img:"images/jiadian01.jpg",
 		name:"小米电视4A 32英寸",
 		des:"64位四核处理器/1GB+4GB大内存",
-		price:"699元",
+		price:"3699元",
 		del:"799元",
 		flag:'立减200元',
 		pl:{
@@ -1390,7 +1418,7 @@ var aTop8data = [
 		img:"images/jiadian01.jpg",
 		name:"小米电视4A 32英寸",
 		des:"64位四核处理器/1GB+4GB大内存",
-		price:"699元",
+		price:"3699元",
 		del:"799元",
 		flag:'立减200元',
 		pl:{
@@ -1403,7 +1431,7 @@ var aTop8data = [
 		img:"images/jiadian01.jpg",
 		name:"小米电视4A 32英寸",
 		des:"64位四核处理器/1GB+4GB大内存",
-		price:"699元",
+		price:"3699元",
 		del:"799元",
 		flag:'立减200元',
 		pl:{
@@ -1416,7 +1444,7 @@ var aTop8data = [
 		img:"images/jiadian01.jpg",
 		name:"小米电视4A 32英寸",
 		des:"64位四核处理器/1GB+4GB大内存",
-		price:"699元",
+		price:"3699元",
 		del:"799元",
 		flag:'立减200元',
 		pl:{
@@ -1429,7 +1457,7 @@ var aTop8data = [
 		img:"images/jiadian01.jpg",
 		name:"小米电视4A 32英寸",
 		des:"64位四核处理器/1GB+4GB大内存",
-		price:"699元",
+		price:"3699元",
 		del:"799元",
 		flag:'立减200元',
 		pl:{
@@ -1442,12 +1470,26 @@ var aTop8data = [
 		img:"images/jiadian01.jpg",
 		name:"小米电视4A 32英寸",
 		des:"64位四核处理器/1GB+4GB大内存",
-		price:"699元",
+		price:"3699元",
 		del:"799元",
 		flag:'立减200元',
 		pl:{
 			content:"我是当评论的，谢谢",
 			author:"奥特曼"
+			}
+		},
+		{		
+			top:{
+				url:"https://www.kuazhu.con",
+				price:"299元",
+				name:"米家电烤箱",
+				img:"images/dkx.jpg"
+			},
+			bottom:{
+				url:"https://www.kuazhu.con",
+				price:"热门",
+				name:"浏览更多",
+				ides:"&#xe615;"
 			}
 		}
 	],
@@ -1457,7 +1499,7 @@ var aTop8data = [
 		img:"images/jiadian01.jpg",
 		name:"小米电视4A 32英寸",
 		des:"64位四核处理器/1GB+4GB大内存",
-		price:"699元",
+		price:"4699元",
 		del:"799元",
 		flag:'立减200元',
 		pl:{
@@ -1470,7 +1512,7 @@ var aTop8data = [
 		img:"images/jiadian01.jpg",
 		name:"小米电视4A 32英寸",
 		des:"64位四核处理器/1GB+4GB大内存",
-		price:"699元",
+		price:"4699元",
 		del:"799元",
 		flag:'立减200元',
 		pl:{
@@ -1483,7 +1525,7 @@ var aTop8data = [
 		img:"images/jiadian01.jpg",
 		name:"小米电视4A 32英寸",
 		des:"64位四核处理器/1GB+4GB大内存",
-		price:"699元",
+		price:"4699元",
 		del:"799元",
 		flag:'立减200元',
 		pl:{
@@ -1496,7 +1538,7 @@ var aTop8data = [
 		img:"images/jiadian01.jpg",
 		name:"小米电视4A 32英寸",
 		des:"64位四核处理器/1GB+4GB大内存",
-		price:"699元",
+		price:"4699元",
 		del:"799元",
 		flag:'立减200元',
 		pl:{
@@ -1509,7 +1551,7 @@ var aTop8data = [
 		img:"images/jiadian01.jpg",
 		name:"小米电视4A 32英寸",
 		des:"64位四核处理器/1GB+4GB大内存",
-		price:"699元",
+		price:"4699元",
 		del:"799元",
 		flag:'立减200元',
 		pl:{
@@ -1522,7 +1564,7 @@ var aTop8data = [
 		img:"images/jiadian01.jpg",
 		name:"小米电视4A 32英寸",
 		des:"64位四核处理器/1GB+4GB大内存",
-		price:"699元",
+		price:"4699元",
 		del:"799元",
 		flag:'立减200元',
 		pl:{
@@ -1535,12 +1577,26 @@ var aTop8data = [
 		img:"images/jiadian01.jpg",
 		name:"小米电视4A 32英寸",
 		des:"64位四核处理器/1GB+4GB大内存",
-		price:"699元",
+		price:"4699元",
 		del:"799元",
 		flag:'立减200元',
 		pl:{
 			content:"我是当评论的，谢谢",
 			author:"奥特曼"
+			}
+		},
+		{		
+			top:{
+				url:"https://www.kuazhu.con",
+				price:"299元",
+				name:"米家电烤箱",
+				img:"images/dkx.jpg"
+			},
+			bottom:{
+				url:"https://www.kuazhu.con",
+				price:"热门",
+				name:"浏览更多",
+				ides:"&#xe615;"
 			}
 		}
 	]
