@@ -771,22 +771,23 @@
 		width:234px;
 		height: 300px;
 		float: left;
+		position: relative;
 	}
 	.top8-down .down-right .top8-data .top8-li .pl{
 		position: absolute;
 		bottom: 0px;
 		left: 0px;
 		overflow: hidden;
-		width: 100%;
+		width: 234px;
 		height: 0px;
 		background-color: #ff6700;
 		margin-bottom: 0px;
 		transition: all 0.5s;
-		
+		overflow: hidden;
 	}
-	/*.top8-down .down-right .top8-data .top8-li:hover>.pl{
+	.top8-down .down-right .top8-data .top8-li:hover>.pl{
 		height: 78px;
-	}*/
+	}
 	.top8-down .down-right .top8-data .pl .pl-con{
 		font-size: 14px;
 		margin-top: 20px;

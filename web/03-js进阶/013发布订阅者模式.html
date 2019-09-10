@@ -7,13 +7,12 @@
 		function Teacher(name){
 			this.name = name;
 			this.students = [];
-			console.log(this.students)
 		}
 		Teacher.prototype = {
 			constructor:Teacher,
-			register :function(students){
-				this.students.push(student)
-			}
+			register:function(student){
+				this.students.push(student);
+			},
 			publish:function(task){
 				for(var i =0;i<this.students.length;i++){
 					this.students[i].listen(task);
@@ -24,7 +23,7 @@
 
 
 
-		function Student(name,Teacher){
+		function Student(name,teacher){
 			this.name = name;
 			teacher.register(this)
 		}
@@ -41,13 +40,13 @@
 		var t1=new Teacher('tom')
 		var s1=new Student('jery',t1)
 		var s2=new Student('neza',t1)
-		var s3=new Student('wuko',t1)
-		var s4=new Student('baji',t1)
-		var s1=new Student('jery',t1)
-		var s1=new Student('jery',t1)
+		var s3=new Student('wukong',t1)
+		var s4=new Student('bajie',t1)
+		var s4=new Student('shaseng',t1)
 
-		console.log(t1)
-		console.log(s1)
+
+		// console.log(t1)
+		// console.log(s1)
 		
 		t1.publish('今天的作业是没有作业')
 	</script>

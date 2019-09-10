@@ -210,29 +210,17 @@ function top5up(){
 		oUl5.style.left = '0px';
 	}
 }
+//选项卡部分
 function top8R(){
 
 	var oTop8 = document.querySelector('.top8 .top8-up .top8-up-r ul')
 	var oTop8Down = document.querySelector('.top8 .top8-down .down-right .top8-data')
 	loadData8(0);
-	var aLi8Down = oTop8Down.children;
+	// var aLi8Down = oTop8Down.children;
 	var aLi8 = oTop8.children;
-	var aPl = document.querySelectorAll('.top8-down .down-right .top8-data .pl');
+	// var aPl = document.querySelectorAll('.top8-down .down-right .top8-data .pl');
 	
-		console.log(aPl);
 
-	// for(var i=0;i<aLi8Down.length;i++){
-
-	// 	aLi8Down[i].onmouseenter = function(){
-	// 	aPl[i].style.width = '78px';
-		
-	// 	}
-		
-	// 	for(var j=0;j<aPl.length;j++){
-	// 		aPl[j].style.width = '0px';
-	// 	}
-
-	// }
 	for(var i=0;i<aLi8.length;i++){
 		aLi8[i].index = i;
 		aLi8[i].onmouseenter = function(){
