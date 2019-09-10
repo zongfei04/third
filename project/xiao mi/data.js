@@ -366,126 +366,126 @@ var aTop3data = [
 	[
 		{
 			url:"https://www.kuazhu.con",
-			img:"images/shouji01.jpg",
-			name:"1小米CC9"
+			img:"images/s32-01.webp",
+			name:"Redmi 红米电视 70英寸"
 		},
 		{
 			url:"https://www.kuazhu.con",
-			img:"images/shouji01.jpg",
-			name:"1小米CC9"
+			img:"images/s32-02.png",
+			name:"小米电视4A 43英寸"
+		},
+		{
+			url:"https://www.kuazhu.con",
+			img:"images/s32-03.png",
+			name:"小米电视4C 50英寸"
+		},
+		{
+			url:"https://www.kuazhu.con",
+			img:"images/s32-04.png",
+			name:"小米电视4 55英寸"
+		},
+		{
+			url:"https://www.kuazhu.con",
+			img:"images/s32-05.jpg",
+			name:"小米壁画电视 65英寸"
+		},
+		{
+			url:"https://www.kuazhu.con",
+			img:"images/s32-06.png",
+			name:"小米电视4A 55英寸"
+		},
+		{
+			url:"https://www.kuazhu.con",
+			img:"images/s32-07.png",
+			name:"小米电视4C 50英寸"
+		},
+		{
+			url:"https://www.kuazhu.con",
+			img:"images/s32-08.jpg",
+			name:"小米电视4 65英寸旗舰版"
+		},
+		{
+			url:"https://www.kuazhu.con",
+			img:"images/s32-09.jpg",
+			name:"小米全面屏电视"
+		},
+		{
+			url:"https://www.kuazhu.con",
+			img:"images/s32-10.png",
+			name:"小米电视4A 58英寸"
+		},
+		{
+			url:"https://www.kuazhu.con",
+			img:"images/s32-11.jpg",
+			name:"小米电视4C 55英寸"
+		},
+		{
+			url:"https://www.kuazhu.con",
+			img:"images/s32-12.jpg",
+			name:"小米电视4 75英寸"
+		},
+		{
+			url:"https://www.kuazhu.con",
+			img:"images/s32-13.png",
+			name:"小米电视4A 32英寸"
+		},
+		{
+			url:"https://www.kuazhu.con",
+			img:"images/s32-14.png",
+			name:"小米电视4A 65英寸"
+		},
+		{
+			url:"https://www.kuazhu.con",
+			img:"images/s32-15.png",
+			name:"小米电视4X 43英寸"
+		},
+		{
+			url:"https://www.kuazhu.con",
+			img:"images/s32-16.png",
+			name:"小米电视4S"
+		},
+		{
+			url:"https://www.kuazhu.con",
+			img:"images/s32-17.png",
+			name:"小米电视4A 43英寸青春版"
+		},
+		{
+			url:"https://www.kuazhu.con",
+			img:"images/s32-18.png",
+			name:"小米电视4C 32英寸"
+		},
+		{
+			url:"https://www.kuazhu.con",
+			img:"images/s32-19.png",
+			name:"小米电视4X 55英寸"
+		},
+		{
+			url:"https://www.kuazhu.con",
+			img:"images/s32-20.png",
+			name:"小米电视体育版"
+		},
+		{
+			url:"https://www.kuazhu.con",
+			img:"images/s32-21.jpg",
+			name:"小米电视4A 49英寸"
+		},
+		{
+			url:"https://www.kuazhu.con",
+			img:"images/s32-22.jpg",
+			name:"小米电视4C 40英寸"
+		},
+		{
+			url:"https://www.kuazhu.con",
+			img:"images/s32-23.jpg",
+			name:"小米电视4A 65英寸"
+		},
+		{
+			url:"https://www.kuazhu.con",
+			img:"images/s32-24.jpg",
+			name:"小米盒子"
 		}
-	],
+	],		
 	[
-		{
-			url:"https://www.kuazhu.con",
-			img:"images/shouji01.jpg",
-			name:"1小米CC9"
-		},
-		{
-			url:"https://www.kuazhu.con",
-			img:"images/shouji01.jpg",
-			name:"1小米CC9"
-		},
-		{
-			url:"https://www.kuazhu.con",
-			img:"images/shouji01.jpg",
-			name:"1小米CC9"
-		},
-		{
-			url:"https://www.kuazhu.con",
-			img:"images/shouji01.jpg",
-			name:"1小米CC9"
-		},
-		{
-			url:"https://www.kuazhu.con",
-			img:"images/shouji01.jpg",
-			name:"1小米CC9"
-		},
-		{
-			url:"https://www.kuazhu.con",
-			img:"images/shouji01.jpg",
-			name:"1小米CC9"
-		},
-		{
-			url:"https://www.kuazhu.con",
-			img:"images/shouji01.jpg",
-			name:"1小米CC9"
-		},
-		{
-			url:"https://www.kuazhu.con",
-			img:"images/shouji01.jpg",
-			name:"1小米CC9"
-		},
-		{
-			url:"https://www.kuazhu.con",
-			img:"images/shouji01.jpg",
-			name:"1小米CC9"
-		},
-		{
-			url:"https://www.kuazhu.con",
-			img:"images/shouji01.jpg",
-			name:"1小米CC9"
-		},
-		{
-			url:"https://www.kuazhu.con",
-			img:"images/shouji01.jpg",
-			name:"1小米CC9"
-		},
-		{
-			url:"https://www.kuazhu.con",
-			img:"images/shouji01.jpg",
-			name:"1小米CC9"
-		},
-		{
-			url:"https://www.kuazhu.con",
-			img:"images/shouji01.jpg",
-			name:"1小米CC9"
-		},
-		{
-			url:"https://www.kuazhu.con",
-			img:"images/shouji01.jpg",
-			name:"1小米CC9"
-		},
-		{
-			url:"https://www.kuazhu.con",
-			img:"images/shouji01.jpg",
-			name:"1小米CC9"
-		},
-		{
-			url:"https://www.kuazhu.con",
-			img:"images/shouji01.jpg",
-			name:"1小米CC9"
-		},
-		{
-			url:"https://www.kuazhu.con",
-			img:"images/shouji01.jpg",
-			name:"1小米CC9"
-		},
-		{
-			url:"https://www.kuazhu.con",
-			img:"images/shouji01.jpg",
-			name:"1小米CC9"
-		},
-		{
-			url:"https://www.kuazhu.con",
-			img:"images/shouji01.jpg",
-			name:"1小米CC9"
-		},
-		{
-			url:"https://www.kuazhu.con",
-			img:"images/shouji01.jpg",
-			name:"1小米CC9"
-		},
-		{
-			url:"https://www.kuazhu.con",
-			img:"images/shouji01.jpg",
-			name:"1小米CC9"
-		},
-		{
-			url:"https://www.kuazhu.con",
-			img:"images/shouji01.jpg",
-			name:"1小米CC9"
-		},
 		{
 			url:"https://www.kuazhu.con",
 			img:"images/shouji01.jpg",
