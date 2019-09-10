@@ -216,9 +216,7 @@ function top8R(){
 	var oTop8 = document.querySelector('.top8 .top8-up .top8-up-r ul')
 	var oTop8Down = document.querySelector('.top8 .top8-down .down-right .top8-data')
 	loadData8(0);
-	// var aLi8Down = oTop8Down.children;
 	var aLi8 = oTop8.children;
-	// var aPl = document.querySelectorAll('.top8-down .down-right .top8-data .pl');
 	
 
 	for(var i=0;i<aLi8.length;i++){
@@ -233,6 +231,8 @@ function top8R(){
 			loadData8(this.index);
 		}
 	}
+
+
 	function loadData8(index){
 		var data = aTop8data[index]
 		var html = '';
@@ -263,8 +263,9 @@ function top8R(){
 			}
 			html += '</li>';
 		}
-		var lastData = data[data.length-1]
 
+		
+		var lastData = data[data.length-1]
 		html +='<li class="down-r-mix1">';
 		html +='	<a href="'+lastData.top.url+'"><p class="name">'+lastData.top.name+'</p></a>';
 		html +='	<p class="top5-jia"><span>'+lastData.top.price+'</span></p>';
@@ -280,6 +281,4 @@ function top8R(){
 
 		oTop8Down.innerHTML = html;
 	}
-	
-
 }
