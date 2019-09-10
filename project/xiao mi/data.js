@@ -2,97 +2,117 @@ var aTop2data = [
 	[
 		{
 			url:"https://www.kuazhu.con",
-			img:"images/shouji01.jpg",
-			name:"1小米CC9",
-			price:"1791元起"
+			img:"images/s21-1.png",
+			name:"小米CC9",
+			price:"1699元起"
 		},
 		{
 			url:"https://www.kuazhu.con",
-			img:"images/shouji01.jpg",
-			name:"1小米CC9",
-			price:"1791元起"
+			img:"images/s21-2.png",
+			name:"小米CC9e",
+			price:"1299元起"
 		},
 		{
 			url:"https://www.kuazhu.con",
-			img:"images/shouji01.jpg",
-			name:"1小米CC9",
-			price:"1791元起"
+			img:"images/s21-3.png",
+			name:"小米CC9 美图定制版",
+			price:"2599元起"
 		},
 		{
 			url:"https://www.kuazhu.con",
-			img:"images/shouji01.jpg",
-			name:"1小米CC9",
-			price:"1791元起"
+			img:"images/s21-4.png",
+			name:"小米9",
+			price:"2799元起"
+		},
+		{
+			url:"https://www.kuazhu.con",
+			img:"images/s21-5.png",
+			name:"小米MIX 3",
+			price:"2599元起"
+		},
+		{
+			url:"https://www.kuazhu.con",
+			img:"images/s21-6.webp",
+			name:"小米MIX 2S",
+			price:"1799元起"
 		}
 	],
 	[
 		{
 			url:"https://www.kuazhu.con",
-			img:"images/shouji01.jpg",
-			name:"2小米CC9",
-			price:"1792元起"
+			img:"images/s22-1.webp",
+			name:"Redmi Note 8 Pro",
+			price:"1399元起"
 		},
 		{
 			url:"https://www.kuazhu.con",
-			img:"images/shouji01.jpg",
-			name:"2小米CC9",
-			price:"1792元起"
+			img:"images/s22-2.webp",
+			name:"Redmi Note 8",
+			price:"999元起"
 		},
 		{
 			url:"https://www.kuazhu.con",
-			img:"images/shouji01.jpg",
-			name:"2小米CC9",
-			price:"1792元起"
+			img:"images/s22-3.jpg",
+			name:"Redmi K20 Pro",
+			price:"2299元起"
 		},
 		{
 			url:"https://www.kuazhu.con",
-			img:"images/shouji01.jpg",
-			name:"2小米CC9",
-			price:"1792元起"
-		},{
+			img:"images/s22-4.jpg",
+			name:"Redmi K20",
+			price:"1799元起"
+		},
+		{
 			
 			url:"https://www.kuazhu.con",
-			img:"images/shouji01.jpg",
-			name:"2小米CC9",
-			price:"1792元起"
+			img:"images/s22-5.jpg",
+			name:"Redmi Note 7 Pro",
+			price:"1399元起"
+		},
+		{
+			
+			url:"https://www.kuazhu.con",
+			img:"images/s22-6.jpg",
+			name:"Redmi 7A",
+			price:"579元起"
 		}
 	],
 	[
 		{
 			url:"https://www.kuazhu.con",
-			img:"images/shouji01.jpg",
-			name:"3小米CC9",
-			price:"1793元起"
+			img:"images/s23-1.webp",
+			name:"Redmi 红米电视4A 70英寸 R70A",
+			price:"3799元起"
 		},
 		{
 			url:"https://www.kuazhu.con",
-			img:"images/shouji01.jpg",
-			name:"3小米CC9",
-			price:"1793元起"
+			img:"images/s23-2.jpg",
+			name:"小米壁画电视 65英寸",
+			price:"6999元起"
 		},
 		{
 			url:"https://www.kuazhu.con",
-			img:"images/shouji01.jpg",
-			name:"3小米CC9",
-			price:"1793元起"
+			img:"images/s23-3.jpg",
+			name:"小米全面屏电视E55A",
+			price:"1799元起"
 		},
 		{
 			url:"https://www.kuazhu.con",
-			img:"images/shouji01.jpg",
-			name:"3小米CC9",
-			price:"1793元起"
+			img:"images/s23-4.png",
+			name:"小米电视4A 32英寸",
+			price:"699元起"
 		},{
 			
 			url:"https://www.kuazhu.con",
-			img:"images/shouji01.jpg",
-			name:"3小米CC9",
-			price:"1793元起"
+			img:"images/s23-5.jpg",
+			name:"小米电视4A 55英寸",
+			price:"1699元起"
 		},
 		{
 			url:"https://www.kuazhu.con",
-			img:"images/shouji01.jpg",
-			name:"3小米CC9",
-			price:"1793元起"
+			img:"images/s23-6.jpg",
+			name:"小米电视4A 65英寸",
+			price:"2699元起"
 		}
 	],
 	[
