@@ -773,6 +773,10 @@
 		float: left;
 		position: relative;
 	}
+	.top8-down .down-right .top8-data .top8-li img{
+		width: 126px;
+		height: 84px;
+	}
 	.top8-down .down-right .top8-data .top8-li .pl{
 		position: absolute;
 		bottom: 0px;
@@ -1324,6 +1328,8 @@ a{
 	margin-left: 25px;
 }
 .down-right ul .down-r-mix1 img{
+	width: 62px;
+	height: 50px;
 	float: right;
 	margin-right: 30px;
 	margin-top: -30px;

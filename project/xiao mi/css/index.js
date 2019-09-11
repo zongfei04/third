@@ -254,7 +254,12 @@ function top8R(){
 			html += '		<p class="down-right-name">'+data[i].name+'</p>';
 			html += '	</a>';
 			html += '	<p class="top5-de down-right-de">'+data[i].des+'</p>';
-			html += '	<p class="top5-jia down-right-jia"><span>'+data[i].price+'</span><del>'+data[i].del+'</del></p>';
+			if(data[i].del){
+				html += '	<p class="top5-jia down-right-jia"><span>'+data[i].price+'</span><del>'+data[i].del+'</del></p>';
+			}else {
+				html += '	<p class="top5-jia down-right-jia"><span>'+data[i].price+'</span></p>';
+			}
+			
 			if(data[i].pl){
 				html += '	<div class="pl">';
 				html += '		<p class="pl-con">'+data[i].pl.content+'</p>';
