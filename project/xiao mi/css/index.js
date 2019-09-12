@@ -5,14 +5,10 @@ time();
 top2M();
 top5up();
 top8R();
-
-// var oTop2 = document.querySelector('.top2 .top2-r input')
-// oTop2.onclick = function(){
-// 	oTop2.style.borderColor = '#ff6700'
-// }
-
-
-
+top9R();
+top10R();
+top11R();
+top12R();
 //左菜单
 function top3L(){
 	var oTopul = document.querySelector('.top3-ul');
@@ -108,7 +104,7 @@ function time(){
 		return num<10 ? '0'+num : ''+num
 	}
 	var aTime = document.querySelectorAll('.top5 .top5-down-ul .top5-sp')
-	var endTime = new Date('2019-09-05 17:00:00')
+	var endTime = new Date('2019-09-15 00:00:00')
 	var time01 = 0;
 	clearInterval(time01);
 	function timer01(){
@@ -212,12 +208,10 @@ function top5up(){
 }
 //选项卡部分
 function top8R(){
-
 	var oTop8 = document.querySelector('.top8 .top8-up .top8-up-r ul')
 	var oTop8Down = document.querySelector('.top8 .top8-down .down-right .top8-data')
 	loadData8(0);
 	var aLi8 = oTop8.children;
-	
 
 	for(var i=0;i<aLi8.length;i++){
 		aLi8[i].index = i;
@@ -231,7 +225,6 @@ function top8R(){
 			loadData8(this.index);
 		}
 	}
-
 
 	function loadData8(index){
 		var data = aTop8data[index]
@@ -269,6 +262,155 @@ function top8R(){
 			html += '</li>';
 		}
 
+		var lastData = data[data.length-1]
+		html +='<li class="down-r-mix1">';
+		html +='	<a href="'+lastData.top.url+'"><p class="name">'+lastData.top.name+'</p></a>';
+		html +='	<p class="top5-jia"><span>'+lastData.top.price+'</span></p>';
+		html +='	<a href="javascript:;"><img src="'+lastData.top.img+'" alt=""></a>';
+		html +='</li>';
+		html +='<li class="down-r-mix2">';
+		html +='	<a href="'+lastData.bottom.url+'">';
+		html +='		<p>'+lastData.bottom.name+'<br><span>'+lastData.bottom.price+'</span></p>';
+		html +='		<i class="iconfont">'+lastData.bottom.ides+'</i>';
+		html +='	</a>';
+		html +='</li>';
+
+		oTop8Down.innerHTML = html;
+	}
+}
+//TOP9部分选项卡(复制后共21个数字要改)
+function top9R(){
+	var oTop9 = document.querySelector('.top9 .top8-up .top-up-r ul')
+	var oTop9Down = document.querySelector('.top9 .top8-down .down-right .top8-data')
+	
+	loadData9(1);
+	var aLi9 = oTop9.children;
+
+	for(var i=0;i<aLi9.length;i++){
+		aLi9[i].index = i;
+		aLi9[i].onmouseenter = function(){
+			for(var j=0;j<aLi9.length;j++){
+				aLi9[j].style.borderBottom = '';
+				aLi9[j].className = '';
+				aLi9[j].style.color = '#424242';
+			}
+			this.style.color = '#ff6700';
+			this.className = 'activeP';
+			this.style.borderBottom = '2px solid #ff6700';
+			loadData9(this.index);
+		}
+	}
+
+	function loadData9(index){
+		var data = aTop9data[index]
+		var html = '';
+
+		for(var i=0;i<data.length-1;i++){
+			html += '<li class="top8-li">';
+			if(data[i].flag){
+				html += '	<span class="flag">'+data[i].flag+'</span>';
+			} 
+			if(data[i].flagJ){
+				html += '	<span class="flag-jian">'+data[i].flagJ+'</span>';
+			}
+			if(data[i].flagN){
+				html += '	<span class="flag-new">'+data[i].flagN+'</span>';
+			}
+			
+			html += '	<a href="'+data[i].url+'">';
+			html += '		<img src="'+data[i].img+'" alt="">';
+			html += '		<p class="down-right-name">'+data[i].name+'</p>';
+			html += '	</a>';
+			html += '	<p class="top5-de down-right-de">'+data[i].des+'</p>';
+			if(data[i].del){
+				html += '	<p class="top5-jia down-right-jia"><span>'+data[i].price+'</span><del>'+data[i].del+'</del></p>';
+			}else {
+				html += '	<p class="top5-jia down-right-jia"><span>'+data[i].price+'</span></p>';
+			}
+			
+			if(data[i].pl){
+				html += '	<div class="pl">';
+				html += '		<p class="pl-con">'+data[i].pl.content+'</p>';
+				html += '		<p class="pl-na">来自于<span>'+data[i].pl.author+'</span>的评论</p>';
+				html += '	</div>';
+			}
+			html += '</li>';
+		}
+
+		var lastData = data[data.length-1]
+		html +='<li class="down-r-mix1">';
+		html +='	<a href="'+lastData.top.url+'"><p class="name">'+lastData.top.name+'</p></a>';
+		html +='	<p class="top5-jia"><span>'+lastData.top.price+'</span></p>';
+		html +='	<a href="javascript:;"><img src="'+lastData.top.img+'" alt=""></a>';
+		html +='</li>';
+		html +='<li class="down-r-mix2">';
+		html +='	<a href="'+lastData.bottom.url+'">';
+		html +='		<p>'+lastData.bottom.name+'<br><span>'+lastData.bottom.price+'</span></p>';
+		html +='		<i class="iconfont">'+lastData.bottom.ides+'</i>';
+		html +='	</a>';
+		html +='</li>';
+
+		oTop9Down.innerHTML = html;
+	}
+}
+//TOP10部分选项卡(复制后共21个数字要改)
+function top10R(){
+	var oTop10 = document.querySelector('.top10 .top8-up .top-up-r ul')
+	var oTop10Down = document.querySelector('.top10 .top8-down .down-right .top8-data')
+	
+	loadData10(2);
+	var aLi10 = oTop10.children;
+
+	for(var i=0;i<aLi10.length;i++){
+		aLi10[i].index = i;
+		aLi10[i].onmouseenter = function(){
+			for(var j=0;j<aLi10.length;j++){
+				aLi10[j].style.borderBottom = '';
+				aLi10[j].className = '';
+				aLi10[j].style.color = '#424242';
+			}
+			this.style.color = '#ff6700';
+			this.className = 'activeP';
+			this.style.borderBottom = '2px solid #ff6700';
+			loadData10(this.index);
+		}
+	}
+
+	function loadData10(index){
+		var data = aTop10data[index]
+		var html = '';
+
+		for(var i=0;i<data.length-1;i++){
+			html += '<li class="top8-li">';
+			if(data[i].flag){
+				html += '	<span class="flag">'+data[i].flag+'</span>';
+			} 
+			if(data[i].flagJ){
+				html += '	<span class="flag-jian">'+data[i].flagJ+'</span>';
+			}
+			if(data[i].flagN){
+				html += '	<span class="flag-new">'+data[i].flagN+'</span>';
+			}
+			
+			html += '	<a href="'+data[i].url+'">';
+			html += '		<img src="'+data[i].img+'" alt="">';
+			html += '		<p class="down-right-name">'+data[i].name+'</p>';
+			html += '	</a>';
+			html += '	<p class="top5-de down-right-de">'+data[i].des+'</p>';
+			if(data[i].del){
+				html += '	<p class="top5-jia down-right-jia"><span>'+data[i].price+'</span><del>'+data[i].del+'</del></p>';
+			}else {
+				html += '	<p class="top5-jia down-right-jia"><span>'+data[i].price+'</span></p>';
+			}
+			
+			if(data[i].pl){
+				html += '	<div class="pl">';
+				html += '		<p class="pl-con">'+data[i].pl.content+'</p>';
+				html += '		<p class="pl-na">来自于<span>'+data[i].pl.author+'</span>的评论</p>';
+				html += '	</div>';
+			}
+			html += '</li>';
+		}
 		
 		var lastData = data[data.length-1]
 		html +='<li class="down-r-mix1">';
@@ -283,7 +425,156 @@ function top8R(){
 		html +='	</a>';
 		html +='</li>';
 
+		oTop10Down.innerHTML = html;
+	}
+}
+//TOP11部分选项卡(复制后共21个数字要改)
+function top11R(){
+	var oTop11 = document.querySelector('.top11 .top8-up .top-up-r ul')
+	var oTop11Down = document.querySelector('.top11 .top8-down .down-right .top8-data')
+	
+	loadData11(3);
+	var aLi11 = oTop11.children;
 
-		oTop8Down.innerHTML = html;
+	for(var i=0;i<aLi11.length;i++){
+		aLi11[i].index = i;
+		aLi11[i].onmouseenter = function(){
+			for(var j=0;j<aLi11.length;j++){
+				aLi11[j].style.borderBottom = '';
+				aLi11[j].className = '';
+				aLi11[j].style.color = '#424242';
+			}
+			this.style.color = '#ff6700';
+			this.className = 'activeP';
+			this.style.borderBottom = '2px solid #ff6700';
+			loadData11(this.index);
+		}
+	}
+
+	function loadData11(index){
+		var data = aTop11data[index]
+		var html = '';
+
+		for(var i=0;i<data.length-1;i++){
+			html += '<li class="top8-li">';
+			if(data[i].flag){
+				html += '	<span class="flag">'+data[i].flag+'</span>';
+			} 
+			if(data[i].flagJ){
+				html += '	<span class="flag-jian">'+data[i].flagJ+'</span>';
+			}
+			if(data[i].flagN){
+				html += '	<span class="flag-new">'+data[i].flagN+'</span>';
+			}
+			
+			html += '	<a href="'+data[i].url+'">';
+			html += '		<img src="'+data[i].img+'" alt="">';
+			html += '		<p class="down-right-name">'+data[i].name+'</p>';
+			html += '	</a>';
+			html += '	<p class="top5-de down-right-de">'+data[i].des+'</p>';
+			if(data[i].del){
+				html += '	<p class="top5-jia down-right-jia"><span>'+data[i].price+'</span><del>'+data[i].del+'</del></p>';
+			}else {
+				html += '	<p class="top5-jia down-right-jia"><span>'+data[i].price+'</span></p>';
+			}
+			
+			if(data[i].pl){
+				html += '	<div class="pl">';
+				html += '		<p class="pl-con">'+data[i].pl.content+'</p>';
+				html += '		<p class="pl-na">来自于<span>'+data[i].pl.author+'</span>的评论</p>';
+				html += '	</div>';
+			}
+			html += '</li>';
+		}
+
+		var lastData = data[data.length-1]
+		html +='<li class="down-r-mix1">';
+		html +='	<a href="'+lastData.top.url+'"><p class="name">'+lastData.top.name+'</p></a>';
+		html +='	<p class="top5-jia"><span>'+lastData.top.price+'</span></p>';
+		html +='	<a href="javascript:;"><img src="'+lastData.top.img+'" alt=""></a>';
+		html +='</li>';
+		html +='<li class="down-r-mix2">';
+		html +='	<a href="'+lastData.bottom.url+'">';
+		html +='		<p>'+lastData.bottom.name+'<br><span>'+lastData.bottom.price+'</span></p>';
+		html +='		<i class="iconfont">'+lastData.bottom.ides+'</i>';
+		html +='	</a>';
+		html +='</li>';
+
+		oTop11Down.innerHTML = html;
+	}
+}
+//TOP12部分选项卡(复制后共21个数字要改)
+function top12R(){
+	var oTop12 = document.querySelector('.top12 .top8-up .top-up-r ul')
+	var oTop12Down = document.querySelector('.top12 .top8-down .down-right .top8-data')
+	
+	loadData12(0);
+	var aLi12 = oTop12.children;
+
+	for(var i=0;i<aLi12.length;i++){
+		aLi12[i].index = i;
+		aLi12[i].onmouseenter = function(){
+			for(var j=0;j<aLi12.length;j++){
+				aLi12[j].style.borderBottom = '';
+				aLi12[j].className = '';
+				aLi12[j].style.color = '#424242';
+			}
+			this.style.color = '#ff6700';
+			this.className = 'activeP';
+			this.style.borderBottom = '2px solid #ff6700';
+			loadData12(this.index);
+		}
+	}
+
+	function loadData12(index){
+		var data = aTop12data[index]
+		var html = '';
+
+		for(var i=0;i<data.length-1;i++){
+			html += '<li class="top8-li">';
+			if(data[i].flag){
+				html += '	<span class="flag">'+data[i].flag+'</span>';
+			} 
+			if(data[i].flagJ){
+				html += '	<span class="flag-jian">'+data[i].flagJ+'</span>';
+			}
+			if(data[i].flagN){
+				html += '	<span class="flag-new">'+data[i].flagN+'</span>';
+			}
+			
+			html += '	<a href="'+data[i].url+'">';
+			html += '		<img src="'+data[i].img+'" alt="">';
+			html += '		<p class="down-right-name">'+data[i].name+'</p>';
+			html += '	</a>';
+			html += '	<p class="top5-de down-right-de">'+data[i].des+'</p>';
+			if(data[i].del){
+				html += '	<p class="top5-jia down-right-jia"><span>'+data[i].price+'</span><del>'+data[i].del+'</del></p>';
+			}else {
+				html += '	<p class="top5-jia down-right-jia"><span>'+data[i].price+'</span></p>';
+			}
+			
+			if(data[i].pl){
+				html += '	<div class="pl">';
+				html += '		<p class="pl-con">'+data[i].pl.content+'</p>';
+				html += '		<p class="pl-na">来自于<span>'+data[i].pl.author+'</span>的评论</p>';
+				html += '	</div>';
+			}
+			html += '</li>';
+		}
+		
+		var lastData = data[data.length-1]
+		html +='<li class="down-r-mix1">';
+		html +='	<a href="'+lastData.top.url+'"><p class="name">'+lastData.top.name+'</p></a>';
+		html +='	<p class="top5-jia"><span>'+lastData.top.price+'</span></p>';
+		html +='	<a href="javascript:;"><img src="'+lastData.top.img+'" alt=""></a>';
+		html +='</li>';
+		html +='<li class="down-r-mix2">';
+		html +='	<a href="'+lastData.bottom.url+'">';
+		html +='		<p>'+lastData.bottom.name+'<br><span>'+lastData.bottom.price+'</span></p>';
+		html +='		<i class="iconfont">'+lastData.bottom.ides+'</i>';
+		html +='	</a>';
+		html +='</li>';
+
+		oTop12Down.innerHTML = html;
 	}
 }

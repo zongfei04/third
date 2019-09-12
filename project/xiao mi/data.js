@@ -1138,10 +1138,11 @@ var aTop3data = [
 	]
 ]	
 var aTop8data = [
+	//热门
 	[
 		{
 		url:"https://www.kuazhu.con",
-		img:"images/s8-01-01.webp",
+		img:"images/s25-1.webp",
 		name:"米家互联网空调C1(一级能效)",
 		des:"1.5匹变频，自清洁，节能省电",
 		price:"2599元",
@@ -1154,7 +1155,7 @@ var aTop8data = [
 		},
 		{
 		url:"https://www.kuazhu.con",
-		img:"images/s8-01-02.jpg",
+		img:"images/s25-2.png",
 		name:"米家空调",
 		des:"大1匹，静音，快速制冷热",
 		price:"1699元",
@@ -1167,7 +1168,7 @@ var aTop8data = [
 		},
 		{
 		url:"https://www.kuazhu.con",
-		img:"images/s8-01-03.webp",
+		img:"images/s25-4.png",
 		name:"米家互联网洗烘一体机 Pro 10Kg",
 		des:"智能洗烘，省心省力",
 		price:"2999元",
@@ -1180,7 +1181,7 @@ var aTop8data = [
 		},
 		{
 		url:"https://www.kuazhu.con",
-		img:"images/s8-01-04.jpg",
+		img:"images/s23-4.png",
 		name:"小米电视4A 32英寸",
 		des:"人工智能系统，高清液晶屏",
 		price:"799元",
@@ -1193,7 +1194,7 @@ var aTop8data = [
 		},
 		{
 		url:"https://www.kuazhu.con",
-		img:"images/s8-01-05.webp",
+		img:"images/s25-3.jpg",
 		name:"Redmi全自动波轮洗衣机1A 8kg",
 		des:"一键操作，父母都爱用",
 		price:"799元",
@@ -1206,7 +1207,7 @@ var aTop8data = [
 		},
 		{
 		url:"https://www.kuazhu.con",
-		img:"images/s8-01-06.webp",
+		img:"images/s23-3.jpg",
 		name:"小米全面屏电视E55A",
 		des:"全面屏设计，人工智能语音",
 		price:"2099元",
@@ -1219,7 +1220,7 @@ var aTop8data = [
 		},
 		{
 		url:"https://www.kuazhu.con",
-		img:"images/s8-01-07.webp",
+		img:"images/s24-5.png",
 		name:"15.6 四核i7 16G 独显 512G",
 		des:"全面均衡的国民轻薄本",
 		price:"4899元",
@@ -1245,14 +1246,15 @@ var aTop8data = [
 			}
 		}
 	],
+	//电脑
 	[
 		{
 		url:"https://www.kuazhu.con",
-		img:"images/s8-01-01.webp",
-		name:"小米电视4A 32英寸",
-		des:"64位四核处理器/1GB+4GB大内存",
-		price:"2699元",
-		del:"799元",
+		img:"images/s24-1.png",
+		name:"RedmiBook 14 独显版",
+		des:"64位四核处理器/2GB+4GB大内存",
+		price:"4699元",
+		// del:"799元",
 		flagN:'新品',
 		// pl:{
 		// 	content:"我是当评论的，谢谢",
@@ -1261,11 +1263,11 @@ var aTop8data = [
 		},
 		{
 		url:"https://www.kuazhu.con",
-		img:"images/jiadian01.jpg",
-		name:"小米电视4A 32英寸",
+		img:"images/s24-2.png",
+		name:"小米笔记本Air 12.5",
 		des:"64位四核处理器/1GB+4GB大内存",
-		price:"2699元",
-		del:"799元",
+		price:"4299元",
+		// del:"799元",
 		flagN:'新品',
 		pl:{
 			content:"我是当评论的，谢谢",
@@ -1274,11 +1276,11 @@ var aTop8data = [
 		},
 		{
 		url:"https://www.kuazhu.con",
-		img:"images/jiadian01.jpg",
-		name:"小米电视4A 32英寸",
+		img:"images/s24-3.png",
+		name:"小米笔记本Air 13.3",
 		des:"64位四核处理器/1GB+4GB大内存",
-		price:"2699元",
-		del:"799元",
+		price:"2999元",
+		del:"3199元",
 		flag:'立减200元',
 		pl:{
 			content:"我是当评论的，谢谢",
@@ -1287,12 +1289,12 @@ var aTop8data = [
 		},
 		{
 		url:"https://www.kuazhu.con",
-		img:"images/jiadian01.jpg",
-		name:"小米电视4A 32英寸",
-		des:"64位四核处理器/1GB+4GB大内存",
-		price:"2699元",
-		del:"799元",
-		flagJ:'立减200元',
+		img:"images/s24-4.png",
+		name:"小米笔记本 15.6",
+		des:"64位八核处理器/2GB+8GB大内存",
+		price:"5699元",
+		del:"6499元",
+		flagJ:'立减800元',
 		pl:{
 			content:"我是当评论的，谢谢",
 			author:"奥特曼"
@@ -1300,12 +1302,12 @@ var aTop8data = [
 		},
 		{
 		url:"https://www.kuazhu.con",
-		img:"images/jiadian01.jpg",
-		name:"小米电视4A 32英寸",
-		des:"64位四核处理器/1GB+4GB大内存",
-		price:"2699元",
-		del:"799元",
-		flagJ:'立减200元',
+		img:"images/s24-5.png",
+		name:"小米笔记本 Pro 15.6",
+		des:"小米游戏本",
+		price:"3399元",
+		del:"3699元",
+		flag:'立减300元',
 		pl:{
 			content:"我是当评论的，谢谢",
 			author:"奥特曼"
@@ -1313,11 +1315,11 @@ var aTop8data = [
 		},
 		{
 		url:"https://www.kuazhu.con",
-		img:"images/jiadian01.jpg",
-		name:"小米电视4A 32英寸",
+		img:"images/s24-6.png",
+		name:"小米笔记本Air 14.3",
 		des:"64位四核处理器/1GB+4GB大内存",
 		price:"2699元",
-		del:"799元",
+		// del:"799元",
 		flagN:'新品',
 		pl:{
 			content:"我是当评论的，谢谢",
@@ -1326,12 +1328,12 @@ var aTop8data = [
 		},
 		{
 		url:"https://www.kuazhu.con",
-		img:"images/jiadian01.jpg",
-		name:"小米电视4A 32英寸",
+		img:"images/s24-2.png",
+		name:"RedmiBook 14 独显版",
 		des:"64位四核处理器/1GB+4GB大内存",
-		price:"2699元",
-		del:"799元",
-		flagJ:'立减200元',
+		price:"4499元",
+		del:"4799元",
+		flag:'立减300元',
 		// pl:{
 		// 	content:"我是当评论的，谢谢",
 		// 	author:"奥特曼"
@@ -1352,10 +1354,11 @@ var aTop8data = [
 			}
 		}
 	],
+	//电视
 	[
 		{
 		url:"https://www.kuazhu.con",
-		img:"images/s8-02-01.jpg",
+		img:"images/s23-1.webp",
 		name:"小米电视4A 32英寸",
 		des:"人工智能系统，高清液晶屏",
 		price:"799元",
@@ -1368,7 +1371,7 @@ var aTop8data = [
 		},
 		{
 		url:"https://www.kuazhu.con",
-		img:"images/s8-02-02.webp",
+		img:"images/s23-2.jpg",
 		name:"小米全面屏电视E55A",
 		des:"全面屏设计，人工智能语音",
 		price:"2099元",
@@ -1381,7 +1384,7 @@ var aTop8data = [
 		},
 		{
 		url:"https://www.kuazhu.con",
-		img:"images/s8-02-03.webp",
+		img:"images/s23-3.jpg",
 		name:"小米全面屏电视E65A",
 		des:"全面屏设计，人工智能语音",
 		price:"3199元",
@@ -1394,7 +1397,7 @@ var aTop8data = [
 		},
 		{
 		url:"https://www.kuazhu.con",
-		img:"images/s8-02-04.jpg",
+		img:"images/s23-4.png",
 		name:"小米电视4X 43英寸",
 		des:"FHD全高清屏，人工智能语音",
 		price:"1399元",
@@ -1407,7 +1410,7 @@ var aTop8data = [
 		},
 		{
 		url:"https://www.kuazhu.con",
-		img:"images/s8-02-05.jpg",
+		img:"images/s23-5.jpg",
 		name:"小米电视4C 55英寸",
 		des:"4K HDR,人工智能系统",
 		price:"1999元",
@@ -1420,7 +1423,7 @@ var aTop8data = [
 		},
 		{
 		url:"https://www.kuazhu.con",
-		img:"images/s8-02-06.jpg",
+		img:"images/s23-6.jpg",
 		name:"小米电视4A 65英寸",
 		des:"4K HDR,人工智能语音系统",
 		price:"2999元",
@@ -1433,7 +1436,7 @@ var aTop8data = [
 		},
 		{
 		url:"https://www.kuazhu.con",
-		img:"images/s8-02-07.webp",
+		img:"images/s23-1.webp",
 		name:"小米壁画电视 65英寸",
 		des:"壁画外观，全面屏，远场语音",
 		price:"6999元",
@@ -1459,14 +1462,125 @@ var aTop8data = [
 			}
 		}
 	],
+	//家居
 	[
 		{
 		url:"https://www.kuazhu.con",
-		img:"images/jiadian01.jpg",
-		name:"小米电视4A 32英寸",
-		des:"64位四核处理器/1GB+4GB大内存",
+		img:"images/s310-02.jpg",
+		name:"床垫",
+		des:"小米床垫",
+		price:"199元",
+		del:"299元",
+		flagJ:'立减100元',
+		pl:{
+			content:"我是当评论的，谢谢",
+			author:"奥特曼"
+			}	
+		},
+		{
+		url:"https://www.kuazhu.con",
+		img:"images/s310-04.jpg",
+		name:"床",
+		des:"小米2M大床",
 		price:"1699元",
-		del:"799元",
+		// del:"799元",
+		flagN:'新品',
+		pl:{
+			content:"我是当评论的，谢谢",
+			author:"奥特曼"
+			}
+		},
+		{
+		url:"https://www.kuazhu.con",
+		img:"images/s310-06.png",
+		name:"枕头",
+		des:"小米静音枕头",
+		price:"199元",
+		del:"299元",
+		flagJ:'立减100元',
+		pl:{
+			content:"我是当评论的，谢谢",
+			author:"奥特曼"
+			}
+		},
+		{
+		url:"https://www.kuazhu.con",
+		img:"images/s310-08.jpg",
+		name:"旅行箱",
+		des:"小米旅行箱85*45",
+		price:"299元",
+		// del:"799元",
+		flag:'立减200元',
+		pl:{
+			content:"我是当评论的，谢谢",
+			author:"奥特曼"
+			}
+		},
+		{
+		url:"https://www.kuazhu.con",
+		img:"images/s310-09.png",
+		name:"沙发",
+		des:"小米靠背沙发",
+		price:"1699元",
+		del:"1899元",
+		flagJ:'立减200元',
+		// pl:{
+		// 	content:"我是当评论的，谢谢",
+		// 	author:"奥特曼"
+		// 	}
+		},
+		{
+		url:"https://www.kuazhu.con",
+		img:"images/s310-13.jpg",
+		name:"毛巾/浴巾",
+		des:"颜色可选",
+		price:"99元",
+		// del:"799元",
+		flag:'新品',
+		// pl:{
+		// 	content:"我是当评论的，谢谢",
+		// 	author:"奥特曼"
+		// 	}
+		},
+		{
+		url:"https://www.kuazhu.con",
+		img:"images/s310-14.jpg",
+		name:"衣服",
+		des:"T恤",
+		price:"199元",
+		del:"219元",
+		flag:'立减20元',
+		pl:{
+			content:"我是当评论的，谢谢",
+			author:"奥特曼"
+			}
+		},
+		{		
+			top:{
+				url:"https://www.kuazhu.con",
+				price:"299元",
+				name:"米家电烤箱",
+				img:"images/dkx.jpg"
+			},
+			bottom:{
+				url:"https://www.kuazhu.con",
+				price:"家居",
+				name:"浏览更多",
+				ides:"&#xe615;"
+			}
+		}
+	]
+]
+var aTop9data = [
+	//热门
+	[
+		{
+		url:"https://www.kuazhu.con",
+		img:"images/s25-1.webp",
+		name:"米家互联网空调C1(一级能效)",
+		des:"1.5匹变频，自清洁，节能省电",
+		price:"2599元",
+		del:"2799元",
 		flagJ:'立减200元',
 		pl:{
 			content:"我是当评论的，谢谢",
@@ -1475,24 +1589,24 @@ var aTop8data = [
 		},
 		{
 		url:"https://www.kuazhu.con",
-		img:"images/jiadian01.jpg",
-		name:"小米电视4A 32英寸",
-		des:"64位四核处理器/1GB+4GB大内存",
+		img:"images/s25-2.png",
+		name:"米家空调",
+		des:"大1匹，静音，快速制冷热",
 		price:"1699元",
-		del:"799元",
+		del:"1799元",
 		flagN:'新品',
-		pl:{
-			content:"我是当评论的，谢谢",
-			author:"奥特曼"
-			}
+		// pl:{
+		// 	content:"我是当评论的，谢谢",
+		// 	author:"奥特曼"
+		// 	}
 		},
 		{
 		url:"https://www.kuazhu.con",
-		img:"images/jiadian01.jpg",
-		name:"小米电视4A 32英寸",
-		des:"64位四核处理器/1GB+4GB大内存",
-		price:"1699元",
-		del:"799元",
+		img:"images/s25-4.png",
+		name:"米家互联网洗烘一体机 Pro 10Kg",
+		des:"智能洗烘，省心省力",
+		price:"2999元",
+		// del:"799元",
 		flag:'立减200元',
 		pl:{
 			content:"我是当评论的，谢谢",
@@ -1501,37 +1615,417 @@ var aTop8data = [
 		},
 		{
 		url:"https://www.kuazhu.con",
-		img:"images/jiadian01.jpg",
+		img:"images/s23-4.png",
 		name:"小米电视4A 32英寸",
+		des:"人工智能系统，高清液晶屏",
+		price:"799元",
+		// del:"799元",
+		flag:'立减200元',
+		pl:{
+			content:"我是当评论的，谢谢",
+			author:"奥特曼"
+			}
+		},
+		{
+		url:"https://www.kuazhu.con",
+		img:"images/s25-3.jpg",
+		name:"Redmi全自动波轮洗衣机1A 8kg",
+		des:"一键操作，父母都爱用",
+		price:"799元",
+		// del:"799元",
+		flag:'立减200元',
+		// pl:{
+		// 	content:"我是当评论的，谢谢",
+		// 	author:"奥特曼"
+		// 	}
+		},
+		{
+		url:"https://www.kuazhu.con",
+		img:"images/s23-3.jpg",
+		name:"小米全面屏电视E55A",
+		des:"全面屏设计，人工智能语音",
+		price:"2099元",
+		// del:"799元",
+		flag:'立减200元',
+		pl:{
+			content:"我是当评论的，谢谢",
+			author:"奥特曼"
+			}
+		},
+		{
+		url:"https://www.kuazhu.con",
+		img:"images/s24-5.png",
+		name:"15.6 四核i7 16G 独显 512G",
+		des:"全面均衡的国民轻薄本",
+		price:"4899元",
+		del:"5099元",
+		flagJ:'立减200元',
+		// pl:{
+		// 	content:"我是当评论的，谢谢",
+		// 	author:"奥特曼"
+		// 	}
+		},
+		{		
+			top:{
+				url:"https://www.kuazhu.con",
+				price:"4699元起",
+				name:"Air 13.3 2019款",
+				img:"images/s8-01-08.webp"
+			},
+			bottom:{
+				url:"https://www.kuazhu.con",
+				price:"热门",
+				name:"浏览更多",
+				ides:"&#xe615;"
+			}
+		}
+	],
+	//电脑
+	[
+		{
+		url:"https://www.kuazhu.con",
+		img:"images/s24-1.png",
+		name:"RedmiBook 14 独显版",
+		des:"64位四核处理器/2GB+4GB大内存",
+		price:"4699元",
+		// del:"799元",
+		flagN:'新品',
+		// pl:{
+		// 	content:"我是当评论的，谢谢",
+		// 	author:"奥特曼"
+		// 	}	
+		},
+		{
+		url:"https://www.kuazhu.con",
+		img:"images/s24-2.png",
+		name:"小米笔记本Air 12.5",
 		des:"64位四核处理器/1GB+4GB大内存",
+		price:"4299元",
+		// del:"799元",
+		flagN:'新品',
+		pl:{
+			content:"我是当评论的，谢谢",
+			author:"奥特曼"
+			}
+		},
+		{
+		url:"https://www.kuazhu.con",
+		img:"images/s24-3.png",
+		name:"小米笔记本Air 13.3",
+		des:"64位四核处理器/1GB+4GB大内存",
+		price:"2999元",
+		del:"3199元",
+		flag:'立减200元',
+		pl:{
+			content:"我是当评论的，谢谢",
+			author:"奥特曼"
+			}
+		},
+		{
+		url:"https://www.kuazhu.con",
+		img:"images/s24-4.png",
+		name:"小米笔记本 15.6",
+		des:"64位八核处理器/2GB+8GB大内存",
+		price:"5699元",
+		del:"6499元",
+		flagJ:'立减800元',
+		pl:{
+			content:"我是当评论的，谢谢",
+			author:"奥特曼"
+			}
+		},
+		{
+		url:"https://www.kuazhu.con",
+		img:"images/s24-5.png",
+		name:"小米笔记本 Pro 15.6",
+		des:"小米游戏本",
+		price:"3399元",
+		del:"3699元",
+		flag:'立减300元',
+		pl:{
+			content:"我是当评论的，谢谢",
+			author:"奥特曼"
+			}
+		},
+		{
+		url:"https://www.kuazhu.con",
+		img:"images/s24-6.png",
+		name:"小米笔记本Air 14.3",
+		des:"64位四核处理器/1GB+4GB大内存",
+		price:"2699元",
+		// del:"799元",
+		flagN:'新品',
+		pl:{
+			content:"我是当评论的，谢谢",
+			author:"奥特曼"
+			}
+		},
+		{
+		url:"https://www.kuazhu.con",
+		img:"images/s24-2.png",
+		name:"RedmiBook 14 独显版",
+		des:"64位四核处理器/1GB+4GB大内存",
+		price:"4499元",
+		del:"4799元",
+		flag:'立减300元',
+		// pl:{
+		// 	content:"我是当评论的，谢谢",
+		// 	author:"奥特曼"
+		// 	}
+		},
+		{		
+			top:{
+				url:"https://www.kuazhu.con",
+				price:"299元",
+				name:"米家电烤箱",
+				img:"images/dkx.jpg"
+			},
+			bottom:{
+				url:"https://www.kuazhu.con",
+				price:"电脑",
+				name:"浏览更多",
+				ides:"&#xe615;"
+			}
+		}
+	],
+	//电视
+	[
+		{
+		url:"https://www.kuazhu.con",
+		img:"images/s23-1.webp",
+		name:"小米电视4A 32英寸",
+		des:"人工智能系统，高清液晶屏",
+		price:"799元",
+		del:"999元",
+		flagJ:'立减200元',
+		// pl:{
+		// 	content:"我是当评论的，谢谢",
+		// 	author:"奥特曼"
+		// 	}	
+		},
+		{
+		url:"https://www.kuazhu.con",
+		img:"images/s23-2.jpg",
+		name:"小米全面屏电视E55A",
+		des:"全面屏设计，人工智能语音",
+		price:"2099元",
+		// del:"799元",
+		flagN:'新品',
+		pl:{
+			content:"我是当评论的，谢谢",
+			author:"奥特曼"
+			}
+		},
+		{
+		url:"https://www.kuazhu.con",
+		img:"images/s23-3.jpg",
+		name:"小米全面屏电视E65A",
+		des:"全面屏设计，人工智能语音",
+		price:"3199元",
+		del:"3999元",
+		flagJ:'立减800元',
+		pl:{
+			content:"我是当评论的，谢谢",
+			author:"奥特曼"
+			}
+		},
+		{
+		url:"https://www.kuazhu.con",
+		img:"images/s23-4.png",
+		name:"小米电视4X 43英寸",
+		des:"FHD全高清屏，人工智能语音",
+		price:"1399元",
+		del:"1499元",
+		flagJ:'立减100元',
+		// pl:{
+		// 	content:"我是当评论的，谢谢",
+		// 	author:"奥特曼"
+		// 	}
+		},
+		{
+		url:"https://www.kuazhu.con",
+		img:"images/s23-5.jpg",
+		name:"小米电视4C 55英寸",
+		des:"4K HDR,人工智能系统",
+		price:"1999元",
+		// del:"799元",
+		flag:'立减200元',
+		// pl:{
+		// 	content:"我是当评论的，谢谢",
+		// 	author:"奥特曼"
+		// 	}
+		},
+		{
+		url:"https://www.kuazhu.con",
+		img:"images/s23-6.jpg",
+		name:"小米电视4A 65英寸",
+		des:"4K HDR,人工智能语音系统",
+		price:"2999元",
+		// del:"799元",
+		flagN:'新品',
+		pl:{
+			content:"我是当评论的，谢谢",
+			author:"奥特曼"
+			}
+		},
+		{
+		url:"https://www.kuazhu.con",
+		img:"images/s23-1.webp",
+		name:"小米壁画电视 65英寸",
+		des:"壁画外观，全面屏，远场语音",
+		price:"6999元",
+		// del:"799元",
+		flagN:'新品',
+		pl:{
+			content:"我是当评论的，谢谢",
+			author:"奥特曼"
+			}
+		},
+		{		
+			top:{
+				url:"https://www.kuazhu.con",
+				price:"299元",
+				name:"小米盒子4",
+				img:"images/s8-02-08.jpg"
+			},
+			bottom:{
+				url:"https://www.kuazhu.con",
+				price:"电视影音",
+				name:"浏览更多",
+				ides:"&#xe615;"
+			}
+		}
+	],
+	//家居
+	[
+		{
+		url:"https://www.kuazhu.con",
+		img:"images/s310-02.jpg",
+		name:"床垫",
+		des:"小米床垫",
+		price:"199元",
+		del:"299元",
+		flagJ:'立减100元',
+		pl:{
+			content:"我是当评论的，谢谢",
+			author:"奥特曼"
+			}	
+		},
+		{
+		url:"https://www.kuazhu.con",
+		img:"images/s310-04.jpg",
+		name:"床",
+		des:"小米2M大床",
 		price:"1699元",
-		del:"799元",
+		// del:"799元",
+		flagN:'新品',
+		pl:{
+			content:"我是当评论的，谢谢",
+			author:"奥特曼"
+			}
+		},
+		{
+		url:"https://www.kuazhu.con",
+		img:"images/s310-06.png",
+		name:"枕头",
+		des:"小米静音枕头",
+		price:"199元",
+		del:"299元",
+		flagJ:'立减100元',
+		pl:{
+			content:"我是当评论的，谢谢",
+			author:"奥特曼"
+			}
+		},
+		{
+		url:"https://www.kuazhu.con",
+		img:"images/s310-08.jpg",
+		name:"旅行箱",
+		des:"小米旅行箱85*45",
+		price:"299元",
+		// del:"799元",
+		flag:'立减200元',
+		pl:{
+			content:"我是当评论的，谢谢",
+			author:"奥特曼"
+			}
+		},
+		{
+		url:"https://www.kuazhu.con",
+		img:"images/s310-09.png",
+		name:"沙发",
+		des:"小米靠背沙发",
+		price:"1699元",
+		del:"1899元",
+		flagJ:'立减200元',
+		// pl:{
+		// 	content:"我是当评论的，谢谢",
+		// 	author:"奥特曼"
+		// 	}
+		},
+		{
+		url:"https://www.kuazhu.con",
+		img:"images/s310-13.jpg",
+		name:"毛巾/浴巾",
+		des:"颜色可选",
+		price:"99元",
+		// del:"799元",
+		flag:'新品',
+		// pl:{
+		// 	content:"我是当评论的，谢谢",
+		// 	author:"奥特曼"
+		// 	}
+		},
+		{
+		url:"https://www.kuazhu.con",
+		img:"images/s310-14.jpg",
+		name:"衣服",
+		des:"T恤",
+		price:"199元",
+		del:"219元",
+		flag:'立减20元',
+		pl:{
+			content:"我是当评论的，谢谢",
+			author:"奥特曼"
+			}
+		},
+		{		
+			top:{
+				url:"https://www.kuazhu.con",
+				price:"299元",
+				name:"米家电烤箱",
+				img:"images/dkx.jpg"
+			},
+			bottom:{
+				url:"https://www.kuazhu.con",
+				price:"家居",
+				name:"浏览更多",
+				ides:"&#xe615;"
+			}
+		}
+	],
+	//热门
+	[
+		{
+		url:"https://www.kuazhu.con",
+		img:"images/s25-1.webp",
+		name:"米家互联网空调C1(一级能效)",
+		des:"1.5匹变频，自清洁，节能省电",
+		price:"2599元",
+		del:"2799元",
 		flagJ:'立减200元',
 		pl:{
 			content:"我是当评论的，谢谢",
 			author:"奥特曼"
-			}
+			}	
 		},
 		{
 		url:"https://www.kuazhu.con",
-		img:"images/jiadian01.jpg",
-		name:"小米电视4A 32英寸",
-		des:"64位四核处理器/1GB+4GB大内存",
+		img:"images/s25-2.png",
+		name:"米家空调",
+		des:"大1匹，静音，快速制冷热",
 		price:"1699元",
-		del:"799元",
-		flag:'立减200元',
-		// pl:{
-		// 	content:"我是当评论的，谢谢",
-		// 	author:"奥特曼"
-		// 	}
-		},
-		{
-		url:"https://www.kuazhu.con",
-		img:"images/jiadian01.jpg",
-		name:"小米电视4A 32英寸",
-		des:"64位四核处理器/1GB+4GB大内存",
-		price:"1699元",
-		del:"799元",
+		del:"1799元",
 		flagN:'新品',
 		// pl:{
 		// 	content:"我是当评论的，谢谢",
@@ -1540,12 +2034,932 @@ var aTop8data = [
 		},
 		{
 		url:"https://www.kuazhu.con",
-		img:"images/jiadian01.jpg",
-		name:"小米电视4A 32英寸",
-		des:"64位四核处理器/1GB+4GB大内存",
-		price:"1699元",
-		del:"799元",
+		img:"images/s25-4.png",
+		name:"米家互联网洗烘一体机 Pro 10Kg",
+		des:"智能洗烘，省心省力",
+		price:"2999元",
+		// del:"799元",
 		flag:'立减200元',
+		pl:{
+			content:"我是当评论的，谢谢",
+			author:"奥特曼"
+			}
+		},
+		{
+		url:"https://www.kuazhu.con",
+		img:"images/s23-4.png",
+		name:"小米电视4A 32英寸",
+		des:"人工智能系统，高清液晶屏",
+		price:"799元",
+		// del:"799元",
+		flag:'立减200元',
+		pl:{
+			content:"我是当评论的，谢谢",
+			author:"奥特曼"
+			}
+		},
+		{
+		url:"https://www.kuazhu.con",
+		img:"images/s25-3.jpg",
+		name:"Redmi全自动波轮洗衣机1A 8kg",
+		des:"一键操作，父母都爱用",
+		price:"799元",
+		// del:"799元",
+		flag:'立减200元',
+		// pl:{
+		// 	content:"我是当评论的，谢谢",
+		// 	author:"奥特曼"
+		// 	}
+		},
+		{
+		url:"https://www.kuazhu.con",
+		img:"images/s23-3.jpg",
+		name:"小米全面屏电视E55A",
+		des:"全面屏设计，人工智能语音",
+		price:"2099元",
+		// del:"799元",
+		flag:'立减200元',
+		pl:{
+			content:"我是当评论的，谢谢",
+			author:"奥特曼"
+			}
+		},
+		{
+		url:"https://www.kuazhu.con",
+		img:"images/s24-5.png",
+		name:"15.6 四核i7 16G 独显 512G",
+		des:"全面均衡的国民轻薄本",
+		price:"4899元",
+		del:"5099元",
+		flagJ:'立减200元',
+		// pl:{
+		// 	content:"我是当评论的，谢谢",
+		// 	author:"奥特曼"
+		// 	}
+		},
+		{		
+			top:{
+				url:"https://www.kuazhu.con",
+				price:"4699元起",
+				name:"Air 13.3 2019款",
+				img:"images/s8-01-08.webp"
+			},
+			bottom:{
+				url:"https://www.kuazhu.con",
+				price:"热门",
+				name:"浏览更多",
+				ides:"&#xe615;"
+			}
+		}
+	]
+]
+var aTop10data = [
+	//热门
+	[
+		{
+		url:"https://www.kuazhu.con",
+		img:"images/s25-1.webp",
+		name:"米家互联网空调C1(一级能效)",
+		des:"1.5匹变频，自清洁，节能省电",
+		price:"2599元",
+		del:"2799元",
+		flagJ:'立减200元',
+		pl:{
+			content:"我是当评论的，谢谢",
+			author:"奥特曼"
+			}	
+		},
+		{
+		url:"https://www.kuazhu.con",
+		img:"images/s25-2.png",
+		name:"米家空调",
+		des:"大1匹，静音，快速制冷热",
+		price:"1699元",
+		del:"1799元",
+		flagN:'新品',
+		// pl:{
+		// 	content:"我是当评论的，谢谢",
+		// 	author:"奥特曼"
+		// 	}
+		},
+		{
+		url:"https://www.kuazhu.con",
+		img:"images/s25-4.png",
+		name:"米家互联网洗烘一体机 Pro 10Kg",
+		des:"智能洗烘，省心省力",
+		price:"2999元",
+		// del:"799元",
+		flag:'立减200元',
+		pl:{
+			content:"我是当评论的，谢谢",
+			author:"奥特曼"
+			}
+		},
+		{
+		url:"https://www.kuazhu.con",
+		img:"images/s23-4.png",
+		name:"小米电视4A 32英寸",
+		des:"人工智能系统，高清液晶屏",
+		price:"799元",
+		// del:"799元",
+		flag:'立减200元',
+		pl:{
+			content:"我是当评论的，谢谢",
+			author:"奥特曼"
+			}
+		},
+		{
+		url:"https://www.kuazhu.con",
+		img:"images/s25-3.jpg",
+		name:"Redmi全自动波轮洗衣机1A 8kg",
+		des:"一键操作，父母都爱用",
+		price:"799元",
+		// del:"799元",
+		flag:'立减200元',
+		// pl:{
+		// 	content:"我是当评论的，谢谢",
+		// 	author:"奥特曼"
+		// 	}
+		},
+		{
+		url:"https://www.kuazhu.con",
+		img:"images/s23-3.jpg",
+		name:"小米全面屏电视E55A",
+		des:"全面屏设计，人工智能语音",
+		price:"2099元",
+		// del:"799元",
+		flag:'立减200元',
+		pl:{
+			content:"我是当评论的，谢谢",
+			author:"奥特曼"
+			}
+		},
+		{
+		url:"https://www.kuazhu.con",
+		img:"images/s24-5.png",
+		name:"15.6 四核i7 16G 独显 512G",
+		des:"全面均衡的国民轻薄本",
+		price:"4899元",
+		del:"5099元",
+		flagJ:'立减200元',
+		// pl:{
+		// 	content:"我是当评论的，谢谢",
+		// 	author:"奥特曼"
+		// 	}
+		},
+		{		
+			top:{
+				url:"https://www.kuazhu.con",
+				price:"4699元起",
+				name:"Air 13.3 2019款",
+				img:"images/s8-01-08.webp"
+			},
+			bottom:{
+				url:"https://www.kuazhu.con",
+				price:"热门",
+				name:"浏览更多",
+				ides:"&#xe615;"
+			}
+		}
+	],
+	//电脑
+	[
+		{
+		url:"https://www.kuazhu.con",
+		img:"images/s24-1.png",
+		name:"RedmiBook 14 独显版",
+		des:"64位四核处理器/2GB+4GB大内存",
+		price:"4699元",
+		// del:"799元",
+		flagN:'新品',
+		// pl:{
+		// 	content:"我是当评论的，谢谢",
+		// 	author:"奥特曼"
+		// 	}	
+		},
+		{
+		url:"https://www.kuazhu.con",
+		img:"images/s24-2.png",
+		name:"小米笔记本Air 12.5",
+		des:"64位四核处理器/1GB+4GB大内存",
+		price:"4299元",
+		// del:"799元",
+		flagN:'新品',
+		pl:{
+			content:"我是当评论的，谢谢",
+			author:"奥特曼"
+			}
+		},
+		{
+		url:"https://www.kuazhu.con",
+		img:"images/s24-3.png",
+		name:"小米笔记本Air 13.3",
+		des:"64位四核处理器/1GB+4GB大内存",
+		price:"2999元",
+		del:"3199元",
+		flag:'立减200元',
+		pl:{
+			content:"我是当评论的，谢谢",
+			author:"奥特曼"
+			}
+		},
+		{
+		url:"https://www.kuazhu.con",
+		img:"images/s24-4.png",
+		name:"小米笔记本 15.6",
+		des:"64位八核处理器/2GB+8GB大内存",
+		price:"5699元",
+		del:"6499元",
+		flagJ:'立减800元',
+		pl:{
+			content:"我是当评论的，谢谢",
+			author:"奥特曼"
+			}
+		},
+		{
+		url:"https://www.kuazhu.con",
+		img:"images/s24-5.png",
+		name:"小米笔记本 Pro 15.6",
+		des:"小米游戏本",
+		price:"3399元",
+		del:"3699元",
+		flag:'立减300元',
+		pl:{
+			content:"我是当评论的，谢谢",
+			author:"奥特曼"
+			}
+		},
+		{
+		url:"https://www.kuazhu.con",
+		img:"images/s24-6.png",
+		name:"小米笔记本Air 14.3",
+		des:"64位四核处理器/1GB+4GB大内存",
+		price:"2699元",
+		// del:"799元",
+		flagN:'新品',
+		pl:{
+			content:"我是当评论的，谢谢",
+			author:"奥特曼"
+			}
+		},
+		{
+		url:"https://www.kuazhu.con",
+		img:"images/s24-2.png",
+		name:"RedmiBook 14 独显版",
+		des:"64位四核处理器/1GB+4GB大内存",
+		price:"4499元",
+		del:"4799元",
+		flag:'立减300元',
+		// pl:{
+		// 	content:"我是当评论的，谢谢",
+		// 	author:"奥特曼"
+		// 	}
+		},
+		{		
+			top:{
+				url:"https://www.kuazhu.con",
+				price:"299元",
+				name:"米家电烤箱",
+				img:"images/dkx.jpg"
+			},
+			bottom:{
+				url:"https://www.kuazhu.con",
+				price:"电脑",
+				name:"浏览更多",
+				ides:"&#xe615;"
+			}
+		}
+	],
+	//电视
+	[
+		{
+		url:"https://www.kuazhu.con",
+		img:"images/s23-1.webp",
+		name:"小米电视4A 32英寸",
+		des:"人工智能系统，高清液晶屏",
+		price:"799元",
+		del:"999元",
+		flagJ:'立减200元',
+		// pl:{
+		// 	content:"我是当评论的，谢谢",
+		// 	author:"奥特曼"
+		// 	}	
+		},
+		{
+		url:"https://www.kuazhu.con",
+		img:"images/s23-2.jpg",
+		name:"小米全面屏电视E55A",
+		des:"全面屏设计，人工智能语音",
+		price:"2099元",
+		// del:"799元",
+		flagN:'新品',
+		pl:{
+			content:"我是当评论的，谢谢",
+			author:"奥特曼"
+			}
+		},
+		{
+		url:"https://www.kuazhu.con",
+		img:"images/s23-3.jpg",
+		name:"小米全面屏电视E65A",
+		des:"全面屏设计，人工智能语音",
+		price:"3199元",
+		del:"3999元",
+		flagJ:'立减800元',
+		pl:{
+			content:"我是当评论的，谢谢",
+			author:"奥特曼"
+			}
+		},
+		{
+		url:"https://www.kuazhu.con",
+		img:"images/s23-4.png",
+		name:"小米电视4X 43英寸",
+		des:"FHD全高清屏，人工智能语音",
+		price:"1399元",
+		del:"1499元",
+		flagJ:'立减100元',
+		// pl:{
+		// 	content:"我是当评论的，谢谢",
+		// 	author:"奥特曼"
+		// 	}
+		},
+		{
+		url:"https://www.kuazhu.con",
+		img:"images/s23-5.jpg",
+		name:"小米电视4C 55英寸",
+		des:"4K HDR,人工智能系统",
+		price:"1999元",
+		// del:"799元",
+		flag:'立减200元',
+		// pl:{
+		// 	content:"我是当评论的，谢谢",
+		// 	author:"奥特曼"
+		// 	}
+		},
+		{
+		url:"https://www.kuazhu.con",
+		img:"images/s23-6.jpg",
+		name:"小米电视4A 65英寸",
+		des:"4K HDR,人工智能语音系统",
+		price:"2999元",
+		// del:"799元",
+		flagN:'新品',
+		pl:{
+			content:"我是当评论的，谢谢",
+			author:"奥特曼"
+			}
+		},
+		{
+		url:"https://www.kuazhu.con",
+		img:"images/s23-1.webp",
+		name:"小米壁画电视 65英寸",
+		des:"壁画外观，全面屏，远场语音",
+		price:"6999元",
+		// del:"799元",
+		flagN:'新品',
+		pl:{
+			content:"我是当评论的，谢谢",
+			author:"奥特曼"
+			}
+		},
+		{		
+			top:{
+				url:"https://www.kuazhu.con",
+				price:"299元",
+				name:"小米盒子4",
+				img:"images/s8-02-08.jpg"
+			},
+			bottom:{
+				url:"https://www.kuazhu.con",
+				price:"电视影音",
+				name:"浏览更多",
+				ides:"&#xe615;"
+			}
+		}
+	],
+	//家居
+	[
+		{
+		url:"https://www.kuazhu.con",
+		img:"images/s310-02.jpg",
+		name:"床垫",
+		des:"小米床垫",
+		price:"199元",
+		del:"299元",
+		flagJ:'立减100元',
+		pl:{
+			content:"我是当评论的，谢谢",
+			author:"奥特曼"
+			}	
+		},
+		{
+		url:"https://www.kuazhu.con",
+		img:"images/s310-04.jpg",
+		name:"床",
+		des:"小米2M大床",
+		price:"1699元",
+		// del:"799元",
+		flagN:'新品',
+		pl:{
+			content:"我是当评论的，谢谢",
+			author:"奥特曼"
+			}
+		},
+		{
+		url:"https://www.kuazhu.con",
+		img:"images/s310-06.png",
+		name:"枕头",
+		des:"小米静音枕头",
+		price:"199元",
+		del:"299元",
+		flagJ:'立减100元',
+		pl:{
+			content:"我是当评论的，谢谢",
+			author:"奥特曼"
+			}
+		},
+		{
+		url:"https://www.kuazhu.con",
+		img:"images/s310-08.jpg",
+		name:"旅行箱",
+		des:"小米旅行箱85*45",
+		price:"299元",
+		// del:"799元",
+		flag:'立减200元',
+		pl:{
+			content:"我是当评论的，谢谢",
+			author:"奥特曼"
+			}
+		},
+		{
+		url:"https://www.kuazhu.con",
+		img:"images/s310-09.png",
+		name:"沙发",
+		des:"小米靠背沙发",
+		price:"1699元",
+		del:"1899元",
+		flagJ:'立减200元',
+		// pl:{
+		// 	content:"我是当评论的，谢谢",
+		// 	author:"奥特曼"
+		// 	}
+		},
+		{
+		url:"https://www.kuazhu.con",
+		img:"images/s310-13.jpg",
+		name:"毛巾/浴巾",
+		des:"颜色可选",
+		price:"99元",
+		// del:"799元",
+		flag:'新品',
+		// pl:{
+		// 	content:"我是当评论的，谢谢",
+		// 	author:"奥特曼"
+		// 	}
+		},
+		{
+		url:"https://www.kuazhu.con",
+		img:"images/s310-14.jpg",
+		name:"衣服",
+		des:"T恤",
+		price:"199元",
+		del:"219元",
+		flag:'立减20元',
+		pl:{
+			content:"我是当评论的，谢谢",
+			author:"奥特曼"
+			}
+		},
+		{		
+			top:{
+				url:"https://www.kuazhu.con",
+				price:"299元",
+				name:"米家电烤箱",
+				img:"images/dkx.jpg"
+			},
+			bottom:{
+				url:"https://www.kuazhu.con",
+				price:"家居",
+				name:"浏览更多",
+				ides:"&#xe615;"
+			}
+		}
+	]
+]
+var aTop11data = [
+	//热门
+	[
+		{
+		url:"https://www.kuazhu.con",
+		img:"images/s25-1.webp",
+		name:"米家互联网空调C1(一级能效)",
+		des:"1.5匹变频，自清洁，节能省电",
+		price:"2599元",
+		del:"2799元",
+		flagJ:'立减200元',
+		pl:{
+			content:"我是当评论的，谢谢",
+			author:"奥特曼"
+			}	
+		},
+		{
+		url:"https://www.kuazhu.con",
+		img:"images/s25-2.png",
+		name:"米家空调",
+		des:"大1匹，静音，快速制冷热",
+		price:"1699元",
+		del:"1799元",
+		flagN:'新品',
+		// pl:{
+		// 	content:"我是当评论的，谢谢",
+		// 	author:"奥特曼"
+		// 	}
+		},
+		{
+		url:"https://www.kuazhu.con",
+		img:"images/s25-4.png",
+		name:"米家互联网洗烘一体机 Pro 10Kg",
+		des:"智能洗烘，省心省力",
+		price:"2999元",
+		// del:"799元",
+		flag:'立减200元',
+		pl:{
+			content:"我是当评论的，谢谢",
+			author:"奥特曼"
+			}
+		},
+		{
+		url:"https://www.kuazhu.con",
+		img:"images/s23-4.png",
+		name:"小米电视4A 32英寸",
+		des:"人工智能系统，高清液晶屏",
+		price:"799元",
+		// del:"799元",
+		flag:'立减200元',
+		pl:{
+			content:"我是当评论的，谢谢",
+			author:"奥特曼"
+			}
+		},
+		{
+		url:"https://www.kuazhu.con",
+		img:"images/s25-3.jpg",
+		name:"Redmi全自动波轮洗衣机1A 8kg",
+		des:"一键操作，父母都爱用",
+		price:"799元",
+		// del:"799元",
+		flag:'立减200元',
+		// pl:{
+		// 	content:"我是当评论的，谢谢",
+		// 	author:"奥特曼"
+		// 	}
+		},
+		{
+		url:"https://www.kuazhu.con",
+		img:"images/s23-3.jpg",
+		name:"小米全面屏电视E55A",
+		des:"全面屏设计，人工智能语音",
+		price:"2099元",
+		// del:"799元",
+		flag:'立减200元',
+		pl:{
+			content:"我是当评论的，谢谢",
+			author:"奥特曼"
+			}
+		},
+		{
+		url:"https://www.kuazhu.con",
+		img:"images/s24-5.png",
+		name:"15.6 四核i7 16G 独显 512G",
+		des:"全面均衡的国民轻薄本",
+		price:"4899元",
+		del:"5099元",
+		flagJ:'立减200元',
+		// pl:{
+		// 	content:"我是当评论的，谢谢",
+		// 	author:"奥特曼"
+		// 	}
+		},
+		{		
+			top:{
+				url:"https://www.kuazhu.con",
+				price:"4699元起",
+				name:"Air 13.3 2019款",
+				img:"images/s8-01-08.webp"
+			},
+			bottom:{
+				url:"https://www.kuazhu.con",
+				price:"热门",
+				name:"浏览更多",
+				ides:"&#xe615;"
+			}
+		}
+	],
+	//电脑
+	[
+		{
+		url:"https://www.kuazhu.con",
+		img:"images/s24-1.png",
+		name:"RedmiBook 14 独显版",
+		des:"64位四核处理器/2GB+4GB大内存",
+		price:"4699元",
+		// del:"799元",
+		flagN:'新品',
+		// pl:{
+		// 	content:"我是当评论的，谢谢",
+		// 	author:"奥特曼"
+		// 	}	
+		},
+		{
+		url:"https://www.kuazhu.con",
+		img:"images/s24-2.png",
+		name:"小米笔记本Air 12.5",
+		des:"64位四核处理器/1GB+4GB大内存",
+		price:"4299元",
+		// del:"799元",
+		flagN:'新品',
+		pl:{
+			content:"我是当评论的，谢谢",
+			author:"奥特曼"
+			}
+		},
+		{
+		url:"https://www.kuazhu.con",
+		img:"images/s24-3.png",
+		name:"小米笔记本Air 13.3",
+		des:"64位四核处理器/1GB+4GB大内存",
+		price:"2999元",
+		del:"3199元",
+		flag:'立减200元',
+		pl:{
+			content:"我是当评论的，谢谢",
+			author:"奥特曼"
+			}
+		},
+		{
+		url:"https://www.kuazhu.con",
+		img:"images/s24-4.png",
+		name:"小米笔记本 15.6",
+		des:"64位八核处理器/2GB+8GB大内存",
+		price:"5699元",
+		del:"6499元",
+		flagJ:'立减800元',
+		pl:{
+			content:"我是当评论的，谢谢",
+			author:"奥特曼"
+			}
+		},
+		{
+		url:"https://www.kuazhu.con",
+		img:"images/s24-5.png",
+		name:"小米笔记本 Pro 15.6",
+		des:"小米游戏本",
+		price:"3399元",
+		del:"3699元",
+		flag:'立减300元',
+		pl:{
+			content:"我是当评论的，谢谢",
+			author:"奥特曼"
+			}
+		},
+		{
+		url:"https://www.kuazhu.con",
+		img:"images/s24-6.png",
+		name:"小米笔记本Air 14.3",
+		des:"64位四核处理器/1GB+4GB大内存",
+		price:"2699元",
+		// del:"799元",
+		flagN:'新品',
+		pl:{
+			content:"我是当评论的，谢谢",
+			author:"奥特曼"
+			}
+		},
+		{
+		url:"https://www.kuazhu.con",
+		img:"images/s24-2.png",
+		name:"RedmiBook 14 独显版",
+		des:"64位四核处理器/1GB+4GB大内存",
+		price:"4499元",
+		del:"4799元",
+		flag:'立减300元',
+		// pl:{
+		// 	content:"我是当评论的，谢谢",
+		// 	author:"奥特曼"
+		// 	}
+		},
+		{		
+			top:{
+				url:"https://www.kuazhu.con",
+				price:"299元",
+				name:"米家电烤箱",
+				img:"images/dkx.jpg"
+			},
+			bottom:{
+				url:"https://www.kuazhu.con",
+				price:"电脑",
+				name:"浏览更多",
+				ides:"&#xe615;"
+			}
+		}
+	],
+	//电视
+	[
+		{
+		url:"https://www.kuazhu.con",
+		img:"images/s23-1.webp",
+		name:"小米电视4A 32英寸",
+		des:"人工智能系统，高清液晶屏",
+		price:"799元",
+		del:"999元",
+		flagJ:'立减200元',
+		// pl:{
+		// 	content:"我是当评论的，谢谢",
+		// 	author:"奥特曼"
+		// 	}	
+		},
+		{
+		url:"https://www.kuazhu.con",
+		img:"images/s23-2.jpg",
+		name:"小米全面屏电视E55A",
+		des:"全面屏设计，人工智能语音",
+		price:"2099元",
+		// del:"799元",
+		flagN:'新品',
+		pl:{
+			content:"我是当评论的，谢谢",
+			author:"奥特曼"
+			}
+		},
+		{
+		url:"https://www.kuazhu.con",
+		img:"images/s23-3.jpg",
+		name:"小米全面屏电视E65A",
+		des:"全面屏设计，人工智能语音",
+		price:"3199元",
+		del:"3999元",
+		flagJ:'立减800元',
+		pl:{
+			content:"我是当评论的，谢谢",
+			author:"奥特曼"
+			}
+		},
+		{
+		url:"https://www.kuazhu.con",
+		img:"images/s23-4.png",
+		name:"小米电视4X 43英寸",
+		des:"FHD全高清屏，人工智能语音",
+		price:"1399元",
+		del:"1499元",
+		flagJ:'立减100元',
+		// pl:{
+		// 	content:"我是当评论的，谢谢",
+		// 	author:"奥特曼"
+		// 	}
+		},
+		{
+		url:"https://www.kuazhu.con",
+		img:"images/s23-5.jpg",
+		name:"小米电视4C 55英寸",
+		des:"4K HDR,人工智能系统",
+		price:"1999元",
+		// del:"799元",
+		flag:'立减200元',
+		// pl:{
+		// 	content:"我是当评论的，谢谢",
+		// 	author:"奥特曼"
+		// 	}
+		},
+		{
+		url:"https://www.kuazhu.con",
+		img:"images/s23-6.jpg",
+		name:"小米电视4A 65英寸",
+		des:"4K HDR,人工智能语音系统",
+		price:"2999元",
+		// del:"799元",
+		flagN:'新品',
+		pl:{
+			content:"我是当评论的，谢谢",
+			author:"奥特曼"
+			}
+		},
+		{
+		url:"https://www.kuazhu.con",
+		img:"images/s23-1.webp",
+		name:"小米壁画电视 65英寸",
+		des:"壁画外观，全面屏，远场语音",
+		price:"6999元",
+		// del:"799元",
+		flagN:'新品',
+		pl:{
+			content:"我是当评论的，谢谢",
+			author:"奥特曼"
+			}
+		},
+		{		
+			top:{
+				url:"https://www.kuazhu.con",
+				price:"299元",
+				name:"小米盒子4",
+				img:"images/s8-02-08.jpg"
+			},
+			bottom:{
+				url:"https://www.kuazhu.con",
+				price:"电视影音",
+				name:"浏览更多",
+				ides:"&#xe615;"
+			}
+		}
+	],
+	//家居
+	[
+		{
+		url:"https://www.kuazhu.con",
+		img:"images/s310-02.jpg",
+		name:"床垫",
+		des:"小米床垫",
+		price:"199元",
+		del:"299元",
+		flagJ:'立减100元',
+		pl:{
+			content:"我是当评论的，谢谢",
+			author:"奥特曼"
+			}	
+		},
+		{
+		url:"https://www.kuazhu.con",
+		img:"images/s310-04.jpg",
+		name:"床",
+		des:"小米2M大床",
+		price:"1699元",
+		// del:"799元",
+		flagN:'新品',
+		pl:{
+			content:"我是当评论的，谢谢",
+			author:"奥特曼"
+			}
+		},
+		{
+		url:"https://www.kuazhu.con",
+		img:"images/s310-06.png",
+		name:"枕头",
+		des:"小米静音枕头",
+		price:"199元",
+		del:"299元",
+		flagJ:'立减100元',
+		pl:{
+			content:"我是当评论的，谢谢",
+			author:"奥特曼"
+			}
+		},
+		{
+		url:"https://www.kuazhu.con",
+		img:"images/s310-08.jpg",
+		name:"旅行箱",
+		des:"小米旅行箱85*45",
+		price:"299元",
+		// del:"799元",
+		flag:'立减200元',
+		pl:{
+			content:"我是当评论的，谢谢",
+			author:"奥特曼"
+			}
+		},
+		{
+		url:"https://www.kuazhu.con",
+		img:"images/s310-09.png",
+		name:"沙发",
+		des:"小米靠背沙发",
+		price:"1699元",
+		del:"1899元",
+		flagJ:'立减200元',
+		// pl:{
+		// 	content:"我是当评论的，谢谢",
+		// 	author:"奥特曼"
+		// 	}
+		},
+		{
+		url:"https://www.kuazhu.con",
+		img:"images/s310-13.jpg",
+		name:"毛巾/浴巾",
+		des:"颜色可选",
+		price:"99元",
+		// del:"799元",
+		flag:'新品',
+		// pl:{
+		// 	content:"我是当评论的，谢谢",
+		// 	author:"奥特曼"
+		// 	}
+		},
+		{
+		url:"https://www.kuazhu.con",
+		img:"images/s310-14.jpg",
+		name:"衣服",
+		des:"T恤",
+		price:"199元",
+		del:"219元",
+		flag:'立减20元',
 		pl:{
 			content:"我是当评论的，谢谢",
 			author:"奥特曼"
@@ -1567,4 +2981,546 @@ var aTop8data = [
 		}
 	]
 ]	
+var aTop12data = [
+	//热门
+	[
+		{
+		url:"https://www.kuazhu.con",
+		img:"images/s25-1.webp",
+		name:"米家互联网空调C1(一级能效)",
+		des:"1.5匹变频，自清洁，节能省电",
+		price:"2599元",
+		del:"2799元",
+		flagJ:'立减200元',
+		pl:{
+			content:"我是当评论的，谢谢",
+			author:"奥特曼"
+			}	
+		},
+		{
+		url:"https://www.kuazhu.con",
+		img:"images/s25-2.png",
+		name:"米家空调",
+		des:"大1匹，静音，快速制冷热",
+		price:"1699元",
+		del:"1799元",
+		flagN:'新品',
+		// pl:{
+		// 	content:"我是当评论的，谢谢",
+		// 	author:"奥特曼"
+		// 	}
+		},
+		{
+		url:"https://www.kuazhu.con",
+		img:"images/s25-4.png",
+		name:"米家互联网洗烘一体机 Pro 10Kg",
+		des:"智能洗烘，省心省力",
+		price:"2999元",
+		// del:"799元",
+		flag:'立减200元',
+		pl:{
+			content:"我是当评论的，谢谢",
+			author:"奥特曼"
+			}
+		},
+		{
+		url:"https://www.kuazhu.con",
+		img:"images/s23-4.png",
+		name:"小米电视4A 32英寸",
+		des:"人工智能系统，高清液晶屏",
+		price:"799元",
+		// del:"799元",
+		flag:'立减200元',
+		pl:{
+			content:"我是当评论的，谢谢",
+			author:"奥特曼"
+			}
+		},
+		{
+		url:"https://www.kuazhu.con",
+		img:"images/s25-3.jpg",
+		name:"Redmi全自动波轮洗衣机1A 8kg",
+		des:"一键操作，父母都爱用",
+		price:"799元",
+		// del:"799元",
+		flag:'立减200元',
+		// pl:{
+		// 	content:"我是当评论的，谢谢",
+		// 	author:"奥特曼"
+		// 	}
+		},
+		{
+		url:"https://www.kuazhu.con",
+		img:"images/s23-3.jpg",
+		name:"小米全面屏电视E55A",
+		des:"全面屏设计，人工智能语音",
+		price:"2099元",
+		// del:"799元",
+		flag:'立减200元',
+		pl:{
+			content:"我是当评论的，谢谢",
+			author:"奥特曼"
+			}
+		},
+		{
+		url:"https://www.kuazhu.con",
+		img:"images/s24-5.png",
+		name:"15.6 四核i7 16G 独显 512G",
+		des:"全面均衡的国民轻薄本",
+		price:"4899元",
+		del:"5099元",
+		flagJ:'立减200元',
+		// pl:{
+		// 	content:"我是当评论的，谢谢",
+		// 	author:"奥特曼"
+		// 	}
+		},
+		{		
+			top:{
+				url:"https://www.kuazhu.con",
+				price:"4699元起",
+				name:"Air 13.3 2019款",
+				img:"images/s8-01-08.webp"
+			},
+			bottom:{
+				url:"https://www.kuazhu.con",
+				price:"热门",
+				name:"浏览更多",
+				ides:"&#xe615;"
+			}
+		}
+	],
+	//电脑
+	[
+		{
+		url:"https://www.kuazhu.con",
+		img:"images/s24-1.png",
+		name:"RedmiBook 14 独显版",
+		des:"64位四核处理器/2GB+4GB大内存",
+		price:"4699元",
+		// del:"799元",
+		flagN:'新品',
+		// pl:{
+		// 	content:"我是当评论的，谢谢",
+		// 	author:"奥特曼"
+		// 	}	
+		},
+		{
+		url:"https://www.kuazhu.con",
+		img:"images/s24-2.png",
+		name:"小米笔记本Air 12.5",
+		des:"64位四核处理器/1GB+4GB大内存",
+		price:"4299元",
+		// del:"799元",
+		flagN:'新品',
+		pl:{
+			content:"我是当评论的，谢谢",
+			author:"奥特曼"
+			}
+		},
+		{
+		url:"https://www.kuazhu.con",
+		img:"images/s24-3.png",
+		name:"小米笔记本Air 13.3",
+		des:"64位四核处理器/1GB+4GB大内存",
+		price:"2999元",
+		del:"3199元",
+		flag:'立减200元',
+		pl:{
+			content:"我是当评论的，谢谢",
+			author:"奥特曼"
+			}
+		},
+		{
+		url:"https://www.kuazhu.con",
+		img:"images/s24-4.png",
+		name:"小米笔记本 15.6",
+		des:"64位八核处理器/2GB+8GB大内存",
+		price:"5699元",
+		del:"6499元",
+		flagJ:'立减800元',
+		pl:{
+			content:"我是当评论的，谢谢",
+			author:"奥特曼"
+			}
+		},
+		{
+		url:"https://www.kuazhu.con",
+		img:"images/s24-5.png",
+		name:"小米笔记本 Pro 15.6",
+		des:"小米游戏本",
+		price:"3399元",
+		del:"3699元",
+		flag:'立减300元',
+		pl:{
+			content:"我是当评论的，谢谢",
+			author:"奥特曼"
+			}
+		},
+		{
+		url:"https://www.kuazhu.con",
+		img:"images/s24-6.png",
+		name:"小米笔记本Air 14.3",
+		des:"64位四核处理器/1GB+4GB大内存",
+		price:"2699元",
+		// del:"799元",
+		flagN:'新品',
+		pl:{
+			content:"我是当评论的，谢谢",
+			author:"奥特曼"
+			}
+		},
+		{
+		url:"https://www.kuazhu.con",
+		img:"images/s24-2.png",
+		name:"RedmiBook 14 独显版",
+		des:"64位四核处理器/1GB+4GB大内存",
+		price:"4499元",
+		del:"4799元",
+		flag:'立减300元',
+		// pl:{
+		// 	content:"我是当评论的，谢谢",
+		// 	author:"奥特曼"
+		// 	}
+		},
+		{		
+			top:{
+				url:"https://www.kuazhu.con",
+				price:"299元",
+				name:"米家电烤箱",
+				img:"images/dkx.jpg"
+			},
+			bottom:{
+				url:"https://www.kuazhu.con",
+				price:"电脑",
+				name:"浏览更多",
+				ides:"&#xe615;"
+			}
+		}
+	],
+	//电视
+	[
+		{
+		url:"https://www.kuazhu.con",
+		img:"images/s23-1.webp",
+		name:"小米电视4A 32英寸",
+		des:"人工智能系统，高清液晶屏",
+		price:"799元",
+		del:"999元",
+		flagJ:'立减200元',
+		// pl:{
+		// 	content:"我是当评论的，谢谢",
+		// 	author:"奥特曼"
+		// 	}	
+		},
+		{
+		url:"https://www.kuazhu.con",
+		img:"images/s23-2.jpg",
+		name:"小米全面屏电视E55A",
+		des:"全面屏设计，人工智能语音",
+		price:"2099元",
+		// del:"799元",
+		flagN:'新品',
+		pl:{
+			content:"我是当评论的，谢谢",
+			author:"奥特曼"
+			}
+		},
+		{
+		url:"https://www.kuazhu.con",
+		img:"images/s23-3.jpg",
+		name:"小米全面屏电视E65A",
+		des:"全面屏设计，人工智能语音",
+		price:"3199元",
+		del:"3999元",
+		flagJ:'立减800元',
+		pl:{
+			content:"我是当评论的，谢谢",
+			author:"奥特曼"
+			}
+		},
+		{
+		url:"https://www.kuazhu.con",
+		img:"images/s23-4.png",
+		name:"小米电视4X 43英寸",
+		des:"FHD全高清屏，人工智能语音",
+		price:"1399元",
+		del:"1499元",
+		flagJ:'立减100元',
+		// pl:{
+		// 	content:"我是当评论的，谢谢",
+		// 	author:"奥特曼"
+		// 	}
+		},
+		{
+		url:"https://www.kuazhu.con",
+		img:"images/s23-5.jpg",
+		name:"小米电视4C 55英寸",
+		des:"4K HDR,人工智能系统",
+		price:"1999元",
+		// del:"799元",
+		flag:'立减200元',
+		// pl:{
+		// 	content:"我是当评论的，谢谢",
+		// 	author:"奥特曼"
+		// 	}
+		},
+		{
+		url:"https://www.kuazhu.con",
+		img:"images/s23-6.jpg",
+		name:"小米电视4A 65英寸",
+		des:"4K HDR,人工智能语音系统",
+		price:"2999元",
+		// del:"799元",
+		flagN:'新品',
+		pl:{
+			content:"我是当评论的，谢谢",
+			author:"奥特曼"
+			}
+		},
+		{
+		url:"https://www.kuazhu.con",
+		img:"images/s23-1.webp",
+		name:"小米壁画电视 65英寸",
+		des:"壁画外观，全面屏，远场语音",
+		price:"6999元",
+		// del:"799元",
+		flagN:'新品',
+		pl:{
+			content:"我是当评论的，谢谢",
+			author:"奥特曼"
+			}
+		},
+		{		
+			top:{
+				url:"https://www.kuazhu.con",
+				price:"299元",
+				name:"小米盒子4",
+				img:"images/s8-02-08.jpg"
+			},
+			bottom:{
+				url:"https://www.kuazhu.con",
+				price:"电视影音",
+				name:"浏览更多",
+				ides:"&#xe615;"
+			}
+		}
+	],
+	//家居
+	[
+		{
+		url:"https://www.kuazhu.con",
+		img:"images/s310-02.jpg",
+		name:"床垫",
+		des:"小米床垫",
+		price:"199元",
+		del:"299元",
+		flagJ:'立减100元',
+		pl:{
+			content:"我是当评论的，谢谢",
+			author:"奥特曼"
+			}	
+		},
+		{
+		url:"https://www.kuazhu.con",
+		img:"images/s310-04.jpg",
+		name:"床",
+		des:"小米2M大床",
+		price:"1699元",
+		// del:"799元",
+		flagN:'新品',
+		pl:{
+			content:"我是当评论的，谢谢",
+			author:"奥特曼"
+			}
+		},
+		{
+		url:"https://www.kuazhu.con",
+		img:"images/s310-06.png",
+		name:"枕头",
+		des:"小米静音枕头",
+		price:"199元",
+		del:"299元",
+		flagJ:'立减100元',
+		pl:{
+			content:"我是当评论的，谢谢",
+			author:"奥特曼"
+			}
+		},
+		{
+		url:"https://www.kuazhu.con",
+		img:"images/s310-08.jpg",
+		name:"旅行箱",
+		des:"小米旅行箱85*45",
+		price:"299元",
+		// del:"799元",
+		flag:'立减200元',
+		pl:{
+			content:"我是当评论的，谢谢",
+			author:"奥特曼"
+			}
+		},
+		{
+		url:"https://www.kuazhu.con",
+		img:"images/s310-09.png",
+		name:"沙发",
+		des:"小米靠背沙发",
+		price:"1699元",
+		del:"1899元",
+		flagJ:'立减200元',
+		// pl:{
+		// 	content:"我是当评论的，谢谢",
+		// 	author:"奥特曼"
+		// 	}
+		},
+		{
+		url:"https://www.kuazhu.con",
+		img:"images/s310-13.jpg",
+		name:"毛巾/浴巾",
+		des:"颜色可选",
+		price:"99元",
+		// del:"799元",
+		flag:'新品',
+		// pl:{
+		// 	content:"我是当评论的，谢谢",
+		// 	author:"奥特曼"
+		// 	}
+		},
+		{
+		url:"https://www.kuazhu.con",
+		img:"images/s310-14.jpg",
+		name:"衣服",
+		des:"T恤",
+		price:"199元",
+		del:"219元",
+		flag:'立减20元',
+		pl:{
+			content:"我是当评论的，谢谢",
+			author:"奥特曼"
+			}
+		},
+		{		
+			top:{
+				url:"https://www.kuazhu.con",
+				price:"299元",
+				name:"米家电烤箱",
+				img:"images/dkx.jpg"
+			},
+			bottom:{
+				url:"https://www.kuazhu.con",
+				price:"家居",
+				name:"浏览更多",
+				ides:"&#xe615;"
+			}
+		}
+	],
+	//热门
+	[
+		{
+		url:"https://www.kuazhu.con",
+		img:"images/s25-1.webp",
+		name:"米家互联网空调C1(一级能效)",
+		des:"1.5匹变频，自清洁，节能省电",
+		price:"2599元",
+		del:"2799元",
+		flagJ:'立减200元',
+		pl:{
+			content:"我是当评论的，谢谢",
+			author:"奥特曼"
+			}	
+		},
+		{
+		url:"https://www.kuazhu.con",
+		img:"images/s25-2.png",
+		name:"米家空调",
+		des:"大1匹，静音，快速制冷热",
+		price:"1699元",
+		del:"1799元",
+		flagN:'新品',
+		// pl:{
+		// 	content:"我是当评论的，谢谢",
+		// 	author:"奥特曼"
+		// 	}
+		},
+		{
+		url:"https://www.kuazhu.con",
+		img:"images/s25-4.png",
+		name:"米家互联网洗烘一体机 Pro 10Kg",
+		des:"智能洗烘，省心省力",
+		price:"2999元",
+		// del:"799元",
+		flag:'立减200元',
+		pl:{
+			content:"我是当评论的，谢谢",
+			author:"奥特曼"
+			}
+		},
+		{
+		url:"https://www.kuazhu.con",
+		img:"images/s23-4.png",
+		name:"小米电视4A 32英寸",
+		des:"人工智能系统，高清液晶屏",
+		price:"799元",
+		// del:"799元",
+		flag:'立减200元',
+		pl:{
+			content:"我是当评论的，谢谢",
+			author:"奥特曼"
+			}
+		},
+		{
+		url:"https://www.kuazhu.con",
+		img:"images/s25-3.jpg",
+		name:"Redmi全自动波轮洗衣机1A 8kg",
+		des:"一键操作，父母都爱用",
+		price:"799元",
+		// del:"799元",
+		flag:'立减200元',
+		// pl:{
+		// 	content:"我是当评论的，谢谢",
+		// 	author:"奥特曼"
+		// 	}
+		},
+		{
+		url:"https://www.kuazhu.con",
+		img:"images/s23-3.jpg",
+		name:"小米全面屏电视E55A",
+		des:"全面屏设计，人工智能语音",
+		price:"2099元",
+		// del:"799元",
+		flag:'立减200元',
+		pl:{
+			content:"我是当评论的，谢谢",
+			author:"奥特曼"
+			}
+		},
+		{
+		url:"https://www.kuazhu.con",
+		img:"images/s24-5.png",
+		name:"15.6 四核i7 16G 独显 512G",
+		des:"全面均衡的国民轻薄本",
+		price:"4899元",
+		del:"5099元",
+		flagJ:'立减200元',
+		// pl:{
+		// 	content:"我是当评论的，谢谢",
+		// 	author:"奥特曼"
+		// 	}
+		},
+		{		
+			top:{
+				url:"https://www.kuazhu.con",
+				price:"4699元起",
+				name:"Air 13.3 2019款",
+				img:"images/s8-01-08.webp"
+			},
+			bottom:{
+				url:"https://www.kuazhu.con",
+				price:"热门",
+				name:"浏览更多",
+				ides:"&#xe615;"
+			}
+		}
+	]
+]
 					
