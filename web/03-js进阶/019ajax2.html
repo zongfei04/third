@@ -2,28 +2,26 @@
 <html lang="en">
 <head>
 	<meta charset="UTF-8">
-	<title>019ajax2.html</title>
+	<title>Document</title>
 </head>
 <body>
-	<button id="btn">POST提交按钮</button>
+	<button id="btn">提交</button>
 </body>
 <script>
 	var oBtn = document.getElementById('btn')
 	oBtn.onclick = function(){
+		// document.body.style.backgroundColor = 'blue'
+		// 从ajax上获取数据的步骤：
+		//第一步,定义oAjax获取数据（拿到电话）
 		var oAjax = new XMLHttpRequest();
-	
-		oAjax.open('POST','http://127.0.0.1:3000',true);
-
-		oAjax.setRequestHeader('Content-Type','application/x-www-form-urlencoded')
-
-		oAjax.send('{"name":"tom","age":"20"}');
+		console.log(oAjax)
+		//第二步，拿到数据（开始拨号）
+		oAjax.open('GET','http://127.0.0.1:3000',true);
+		//第三步，开始传输数据（拨出号码）
+		oAjax.send();
+		//第四步，等待回应（接通电话回应）
 		oAjax.onreadystatechange = function(){
-			if(oAjax.eradyState == 4){
-				if(oAjax.status == 200){
-					var obj = JSON.parse(oAjax.responseText);
-					console.log(obj)
-				}
-			}
+			console.log('000000002')
 		}
 	}
 </script>

@@ -2,25 +2,9 @@
 <html lang="en">
 <head>
 	<meta charset="UTF-8">
-	<title>019ajax1.html</title>
+	<title>Document</title>
 </head>
 <body>
-	<button id="btn">提交按钮</button>
+	I am a test html
 </body>
-<script>
-	var oBtn = document.getElementById('btn')
-	oBtn.onclick = function(){
-		var oAjax = new XMLHttpRequest();
-	
-		oAjax.open('GET','http://127.0.0.1:3000',true);
-
-		oAjax.send();
-		console.log(oAjax.status)
-		// console.log(oAjax.readyState)
-		oAjax.onreadystatechange = function(){
-			// console.log('aaaaa')
-			console.log(oAjax.readyState)
-		}
-	}
-</script>
 </html>
