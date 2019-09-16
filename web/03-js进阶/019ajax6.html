@@ -35,24 +35,24 @@
 	}
 	var oBtn = document.getElementById('btn')
 	oBtn.onclick = function(){
-		// ajax('post',
-		// 	'http://127.0.0.1:3000',
-		// 	'{"name":"tom","age":20}',
-		// 	function(obj){
-		// 		console.log(obj)
-		// 	},
-		// 	function(err){
-		// 		console.log(err)
-		// 	})
-		ajax('get',
+		ajax('post',
 			'http://127.0.0.1:3000',
-			'{name=jery}',
+			'{"name":"tom","age":20}',
 			function(obj){
 				console.log(obj)
 			},
 			function(err){
 				console.log(err)
 			})
+		// ajax('get',
+		// 	'http://127.0.0.1:3000',
+		// 	'{name=jery}',
+		// 	function(obj){
+		// 		console.log(obj)
+		// 	},
+		// 	function(err){
+		// 		console.log(err)
+		// 	})
 	}
 </script>
 </html>
