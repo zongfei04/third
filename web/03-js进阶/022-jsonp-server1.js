@@ -6,7 +6,7 @@ var url = require('url');
 var server = http.createServer(function(req,res){
 	var urlStr = req.url;
 	var parm = url.parse(urlStr,true).query;
-	console.log(parm);
+	// console.log(parm);
 	/*
 	var str = 'nihao';
 	res.end(parm.callback+'("'+str+'")');

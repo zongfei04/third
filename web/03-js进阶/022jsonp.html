@@ -16,19 +16,20 @@
 <script>
 	var oBtn = document.getElementById('btn');
 	var oTxt = document.getElementById('txt');
-	oBtn.onclick  = function(){
-		var script = document.createElement('script');
-		// script.src = "http://127.0.0.1:3001/getData?callback=handleCallback";
-		script.src = "https://suggest.taobao.com/sug?code=utf-8&q=li&_ksTS=1568630352412_309&callback=handleCallback&k=1&area=c2c&bucketid=1";
-		document.body.appendChild(script);
+	oBtn.onclick  = function(obj){
+		alert(obj)
+		// var script = document.createElement('script');
+		// // script.src = "http://127.0.0.1:3001/getData?callback=handleCallback";
+		// script.src = "https://suggest.taobao.com/sug?code=utf-8&q=li&_ksTS=1568630352412_309&callback=handleCallback&k=1&area=c2c&bucketid=1";
+		// document.body.appendChild(script);
 	}
-	oTxt.oninput = function(){
-		var script = document.createElement('script');
-		// script.src = "http://127.0.0.1:3001/getData?callback=handleCallback";
-		script.src = "https://suggest.taobao.com/sug?code=utf-8&q="+oTxt.value+"&_ksTS=1568630352412_309&callback=handleCallback&k=1&area=c2c&bucketid=1";
-		document.body.appendChild(script);
-	}
+	// oTxt.oninput = function(){
+	// 	var script = document.createElement('script');
+	// 	// script.src = "http://127.0.0.1:3001/getData?callback=handleCallback";
+	// 	script.src = "https://suggest.taobao.com/sug?code=utf-8&q="+oTxt.value+"&_ksTS=1568630352412_309&callback=handleCallback&k=1&area=c2c&bucketid=1";
+	// 	document.body.appendChild(script);
+	// }
 </script>
 
-<!-- <script src="http://127.0.0.1:3001/getData?callback=handleCallback"></script> -->
+<script src="http://127.0.0.1:3001/getData?callback=handleCallback"></script>
 </html>

@@ -1,15 +1,11 @@
 var http = require('http');
-
 var fs = require('fs');
 var url = require('url');
 
 var server = http.createServer(function(req,res){
-	// console.log(req.method);
-
 	if(req.url == "/favicon.ico"){
 		res.end("favicon.ico");
 	}
-
 	if(req.method == "POST"){
 		var body = "";
 		req.on("data",function(chunk){
@@ -22,7 +18,6 @@ var server = http.createServer(function(req,res){
 	}else if(req.method == "GET"){
 		if(req.url.search(/\?/) != -1){
 			var parm = url.parse(req.url,true).query;
-			console.log(parm);
 			var objToJSON = JSON.stringify(parm);
 			res.end(objToJSON);
 		}else{
@@ -39,9 +34,6 @@ var server = http.createServer(function(req,res){
 	}else{
 		res.end('ok');
 	}
-
-	
-
 });
 
 server.listen(3000,"127.0.0.1",function(){
