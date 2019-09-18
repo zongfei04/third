@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>013操作文本代码和值.html</title>
+</head>
+<body>
+	<div> 
+		我是文本01
+		<p>我是代码中的文本01</p>
+	</div>
+	<div> 
+		我是文本02
+		<p>我是代码中的文本02</p>
+	</div>
+	<div> 
+		我是文本03
+		<p>我是代码中的文本03</p>
+	</div>
+	<input type="text" value="我是值ad001">
+	<input type="text" value="我是值ad002">
+</body>
+<script src="jquery-3.4.1.js"></script>
+<script>
+	$(function(){
+		console.log($('div').html())
+		$('div').html('<h1>我是文本</h1>')
+		// console.log($('div').text())
+		// console.log($('div').text('<h1>我是文本</h1>'))
+		// console.log($('input').val())
+		// $('input').val('0003')
+	})
+</script>
+</html>

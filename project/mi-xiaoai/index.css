@@ -272,15 +272,155 @@
 	.top2{
 		height: 480px;
 		width: 100%;
-		/*border: 1px solid #f00;*/
 		position: relative;
 	}
-	.top2 .top2-d img{
+	.top2 .top2-d .top2-d01{
+		display: block;
 		height: 480px;
 		width: 100%;
+		background-image: url(img/top2-1.png);
+		background-size: auto 480px;
+		background-position: -490px;
+		overflow: hidden;
+	}
+	.top2 .top2-d .top2-d02{
+		display: none;
+		height: 480px;
+		width: 100%;
+		background-image: url(img/top2-2.jpg);
+		background-size: auto 480px;
+		background-position: -480px;
+		overflow: hidden;
+	}
+	.top2 .top2-d .top2-d02 p{
+		margin-top: 120px;
+		z-index: 5;
+		color: #fff;
+		font-size: 50px;
+		text-align: center;
+		letter-spacing: 5px;
+	}
+	.top2 .top2-d .top2-d02 span{
+		display: inline-block;
+		width: 100%;
+		margin-top: 20px;
+		z-index: 5;
+		color: #fff;
+		font-size: 20px;
+		text-align: center;
+	}
+	.top2 .top2-d .top2-d02 .top2-d02-ad{
+		height: 56px;
+		width: 530px;
+		position: absolute;
+		top: 300px;
+		left: 50%;
+		margin-left: -265px;
+	}
+	.top2-d .top2-d02 .top2-d02-ad .top2-d02-ad1 a{
+		display: inline-block;
+		height: 56px;
+		width: 250px;
+		color: #000;
+		font-size: 20px;
+		text-align: center;
+		line-height: 56px;
+		background-color: #00eaff;
 		position: absolute;
 		top: 0px;
 		left: 0px;
+	}
+	.top2-d .top2-d02 .top2-d02-ad .top2-d02-ad2 a{
+		display: inline-block;
+		height: 56px;
+		width: 250px;
+		color: #000;
+		font-size: 20px;
+		text-align: center;
+		line-height: 56px;
+		background-color: #00eaff;
+		position: absolute;
+		top: 0px;
+		right: 0px;
+	}
+	.top2-d .top2-d02 .top2-d02-ad .top2-d02-ad1 a:hover{
+		background-color: #40a9ff;
+		color: #fff;
+		transition: all 0.3s;		
+	}
+	.top2-d .top2-d02 .top2-d02-ad .top2-d02-ad2 a:hover{
+		background-color: #40a9ff;
+		color: #fff;
+		transition: all 0.3s;
+	}
+	.top2 .top2-d .top2-d03{
+		display: none;
+		height: 480px;
+		width: 100%;
+		background-image: url(img/top2-3.png);
+		background-size: auto 480px;
+		background-position: -915px;
+		overflow: hidden;
+	}
+	.top2 .top2-d .top2-d03 span{
+		display: inline-block;
+		width: 100%;
+		margin-top: 120px;
+		margin-left: 25px;
+		font-size: 20px;
+		color: #fff;
+		text-align: center;
+		font-weight: bold;
+		letter-spacing: 55px;
+	}
+	.top2 .top2-d .top2-d03 p{
+		display: inline-block;
+		width: 100%;
+		margin-top: 20px;
+		font-size: 50px;
+		color: #fff;
+		text-align: center;
+		letter-spacing: 10px;
+	}
+	.top2 .top2-d .top2-d03 div a{
+		display: inline-block;
+		height: 56px;
+		width: 250px;
+		color: #fff;
+		font-size: 20px;
+		text-align: center;
+		line-height: 56px;
+		background-color: #3638e0;
+		border: 1px solid #628dff;
+		box-shadow: 0 0 5px 1px #628dff;
+		position: absolute;
+		top: 300px;
+		left: 50%;
+		margin-left: -125px;
+	}
+	.top2 .top2-d .top2-d03 div a:hover{
+		background-color: #628dff;
+		transition: all 0.3s;
+	}
+	.top2 .top2-ul{
+		width: 90px;
+		height: 3px;
+		position: absolute;
+		left: 50%;
+		bottom: 20px;
+		margin-left: -40px;
+	}
+	.top2 .top2-ul li{
+		width: 15px;
+		height: 3px;
+		background-color: rgba(255,255,255,0.2);
+		float: left;
+		margin-right: 5px;
+	}
+	.top2 .top2-ul li:hover{
+		cursor: pointer;
+		background-color: rgba(255,255,255,0.8);
+		transition: all 0.3s;
 	}
 /*top3*/	
 	.top3{

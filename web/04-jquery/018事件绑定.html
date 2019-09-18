@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>018事件绑定.html</title>
+	<style>
+		.box{
+			width: 100px;
+			height: 100px;
+			margin: 100px auto;
+			background-color: red;
+		}
+	</style>
+</head>
+<body>
+	<div class="box"></div>
+</body>
+<script src="jquery-3.4.1.js"></script>
+<script>
+	$(function(){
+		// $('.box').click(function(){
+		// 	alert('click...')
+		// })
+
+		// $('.box').on('click',function(){
+		// 	alert('click...')
+		// })
+
+		// $('.box').one('click',function(){
+		// 	alert('click...')
+		// })
+
+
+		$('.box').hover(function(){
+			alert('mouseover')
+		})
+
+
+		// $('.box').hover(function(){
+		// 	alert('mouseover')
+		// },function(){
+		// 	alert('mouseout')
+		// })
+	})
+</script>
+</html>

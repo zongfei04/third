@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>011操作属性.html</title>
+</head>
+<body>
+	<input type="text" value="aaa" name="a01">
+	<input type="text" value="bbb" name="b01">
+	<input type="checkbox" checked>
+</body>
+<script src="jquery-3.4.1.js"></script>
+<script>
+	$(function(){
+		//获取属性(只能第一个)
+		// console.log($('input').attr('name'))
+		// console.log($('input').prop('name'))
+		//操作属性（改变所有符合的属性）
+		// $('input').attr('name','cccc')
+		// $('input').prop('name','cccc')
+		//删除属性
+		// $('input').removeAttr('name')
+		// $('input').removeProp('name')
+		//特殊的（checked,selected,disabled）
+		console.log($('input').attr('checked'))
+		console.log($('input').prop('checked'))
+	})
+</script>
+</html>
