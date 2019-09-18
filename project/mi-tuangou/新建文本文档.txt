@@ -1,0 +1,15 @@
+main-width:1226px;
+five-width:234*5+14*4px;
+four-width:15*3+295*4px
+top3-right-width:296px;
+top3-right-height:127+333
+top3-right-ul:150*190px;
+top1-height:40px;
+top2-height:100px;
+top3-height:460+15px;
+top4-height:170+50px;
+top5-height:460px;
+top6-12-height:440px;
+top13-height:30+360+105px;
+top14-height:150px;
+top15-height:230px;
