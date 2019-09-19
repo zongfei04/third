@@ -280,7 +280,7 @@
 		width: 100%;
 		background-image: url(img/top2-1.png);
 		background-size: auto 480px;
-		background-position: -490px;
+		background-position: center;
 		overflow: hidden;
 	}
 	.top2 .top2-d .top2-d02{
@@ -289,7 +289,7 @@
 		width: 100%;
 		background-image: url(img/top2-2.jpg);
 		background-size: auto 480px;
-		background-position: -480px;
+		background-position: center;
 		overflow: hidden;
 	}
 	.top2 .top2-d .top2-d02 p{
@@ -359,7 +359,7 @@
 		width: 100%;
 		background-image: url(img/top2-3.png);
 		background-size: auto 480px;
-		background-position: -915px;
+		background-position: center;
 		overflow: hidden;
 	}
 	.top2 .top2-d .top2-d03 span{

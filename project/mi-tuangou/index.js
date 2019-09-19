@@ -1,5 +1,6 @@
-top1R()；
-
+top1R();
+top5();
+top6();
 
 function top1R(){
 	var oCart = document.querySelector('.top1-r-shopping')
@@ -23,5 +24,31 @@ function top1R(){
 		oSpan1.style.display = 'none';
 		oLoader.style.display = 'none';
 		
+	}
+}
+function top5(){
+	var aLi = document.querySelectorAll('.top5 .top5-content .top5-d ul li')
+	var aPl = document.querySelectorAll('.top5 .top5-content .top5-d ul li .top5-pl')
+	for(var i=0;i<aLi.length;i++){
+		aLi[i].index = i
+		aLi[i].onmouseenter = function(){
+			for(var j=0;j<aLi.length;j++){
+				aPl[j].style.height = '0px';
+			}
+			aPl[this.index].style.height = '40px';
+		}
+	}
+}
+function top6(){
+	var aLi = document.querySelectorAll('.top6 .top6-content .top6-d ul li')
+	var aPl = document.querySelectorAll('.top6 .top6-content .top6-d ul li .top6-pl')
+	for(var i=0;i<aLi.length;i++){
+		aLi[i].index = i
+		aLi[i].onmouseenter = function(){
+			for(var j=0;j<aLi.length;j++){
+				aPl[j].style.height = '0px';
+			}
+			aPl[this.index].style.height = '40px';
+		}
 	}
 }
