@@ -27,22 +27,22 @@
 	$(function(){
 		$('button').eq(0).on('click',function(){
 			$('div').fadeIn(1000,function(){
-				alert('fadeIn....')
+				console.log('fadeIn....')
 			})
 		})
 		$('button').eq(1).on('click',function(){
 			$('div').fadeOut(1000,function(){
-				alert('fadeOut....')
+				console.log('fadeOut....')
 			})
 		})
 		$('button').eq(2).on('click',function(){
 			$('div').fadeToggle(1000,function(){
-				alert('fadeToggle....')
+				console.log('fadeToggle....')
 			})
 		})
 		$('button').eq(2).on('click',function(){
 			$('div').fadeTo(1000,0.5,function(){
-				alert('opacity到0.5了')
+				console.log('opacity到0.5了')
 			})
 		})
 		

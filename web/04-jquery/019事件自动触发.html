@@ -44,8 +44,12 @@
 		$('.son').on('click',function(){
 			alert('son....')
 		})
+		//trigger不阻止事件冒泡和默认行为的事件触发
+		//a标签用trigger不阻止事件冒泡,但是会阻止默认行为,如果需要发生默认行为需要触发a标签的子元素
 		// $('.son').trigger('click')
-		$('.son').triggerHandler('click')
+
+		//triggerHandler阻止事件冒泡和默认行为的事件触发
+		// $('.son').triggerHandler('click')
 		// $('a').triggerHandler('click')
 		$('a').triggerHandler('click')
 		//可以跳转页面

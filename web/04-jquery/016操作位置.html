@@ -30,11 +30,15 @@
 		<div class="son"></div>
 	</div>
 </body>
-<script src="jquery-3.4.1.js"></script>
+<script src="js/jquery-3.4.1.js"></script>
 <script>
 	$(function(){
+		//offset偏移的值都是相对于body的，offset返回不传参时返回一个包含偏移值对象，offset传值需要传一个包含偏移值的对象
 		console.log($('.son').offset())
-		$('.son').offset({width:150,height:150})
+		$('.son').offset({'top':150,'left':150})
+		console.log($('.son').offset())
+		//position是移动后相对于父元素的位移距离，以左上角为标准
+		console.log($('.son').position())
 
 	})
 </script>

@@ -25,16 +25,13 @@
 <script src="js/jquery-1.12.4.js"></script>
 <script>
 	$(function(){
-		// $('button').eq(0).on('click',function(){
-		// 	$('div').animate({width:200},1000)
-		// 	.animate({height:200},1000)
-		// 	.animate({borderRadius:100},1000)
-		// })
+		// delay放在哪个前面就给哪个延迟，只能有一个有效果
 		$('button').eq(2).on('click',function(){
 			$('div').animate({width:200},1000).delay(1000)
 			.animate({height:200},1000)
 			.animate({borderRadius:100},1000)
 		})
+		//stop停止动画有两个参数，参数不一样结果不一样
 		$('button').eq(1).on('click',function(){
 			$('div').stop(false,false)
 		})

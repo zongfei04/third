@@ -25,6 +25,7 @@
 <script>
 	$(function(){
 		$('button').on('click',function(){
+			//默认是swing，也可以用linear
 			$('div').eq(0).animate({width:1200},3000,'swing')
 			$('div').eq(1).animate({width:1200},3000,'linear')
 		})
