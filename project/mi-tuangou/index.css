@@ -80,16 +80,13 @@
 		height: 0px;
 		background-color: #fff;
 		text-align: center;
-		box-shadow: 0px 2px 5px #ccc;
+		box-shadow: 0px 0px 5px #ccc;
 		overflow: hidden;
-		z-index: 999;
-	}
-	.top1-right .top1-cartbox #loader{
-		margin-top: 38px;
+		z-index: 99;
 	}
 	.top1 .top1-right .top1-cartbox span{
-		display: none;
 		font-size: 12px;
+		height: 100px;
 		display: inline-block;
 		line-height: 100px;
 	}
@@ -202,17 +199,104 @@
 		border:none;
 		cursor: pointer;
 	}
-/*top2-del*/	
-	.top2-del{
-		position: fixed;
-		top:0px;
-		left: 50%;
-		margin-left: -613px;
+/*top2-del*/
+	.top-del{
+		width: 100%;
 		height: 0px;
 		background-color: #fff;
+		position: fixed;
+		top: 0px;
+		left: 0px;
 		box-shadow: 0px 5px 5px #ccc;
 		overflow: hidden;
 		z-index: 20;
+	}	
+	.top-del .top2-del{
+		position: absolute;
+		top:0px;
+		left: 50%;
+		margin-left: -613px;
+		height: 100%;
+	}
+	.top-del .top2>span{
+		display: inline-block;
+		font-size: 22px;
+		letter-spacing: 3px;
+		color: #ff6700;
+		font-weight: bold;
+		position: absolute;
+		top: 40px;
+		left: 70px;
+	}
+	.top-del .top2>img{
+		position: absolute;
+		top: 22px;
+		left: 0px;
+		cursor: pointer;
+	}
+	.top-del .top2-ul{
+		position: absolute;
+		top: 35px;
+		left: 190px;
+		height: 30px;
+		width: 800px;
+	}
+	.top-del .top2-ul .top2-li{
+		float: left;
+		font-size: 16px;
+		line-height: 30px;
+		margin-right: 18px;
+	}
+	.top-del .top2-ul .top2-li>a{
+		color: #333;
+	}
+	.top-del .top2-ul .top2-li>a:hover{
+		color: #ff6700;
+	}
+	.top-del .top2 .top2-r{
+		float: right;
+		width: 295px;
+		height: 50px;
+		margin-top: 25px;
+		position: relative;
+	}
+	.top-del .top2 .top2-r input{
+		float: left;
+		width: 243px;
+		height: 50px;
+		outline: none;
+		border: 1px solid #e0e0e0;
+		box-sizing: border-box;
+		border-right: none;
+		padding-left: 10px;
+	}
+	.top-del .top2 .top2-r input:active{
+		border-color: #ff6700;
+	}
+	.top-del .top2 .top2-r input:focus ~ .top2-m-list{
+		display: block;
+		z-index: 100;
+	}
+	.top-del .top2 .top2-r input:focus,
+	.top-del .top2 .top2-r input:focus ~ span{
+		border-color: #ff6700;
+	}
+	.top-del .top2 .top2-r>span{
+		float: left;
+		width: 52px;
+		height: 50px;
+		line-height: 50px;
+		text-align: center;
+		border: 1px solid #e0e0e0;
+		box-sizing: border-box;
+		font-size: 24px;
+		color:#616161;
+	}
+	.top-del .top2 .top2-r>span:hover{
+		background-color: #ff6700;
+		color:#fff;
+		border:none;
+		cursor: pointer;
 	}
 /*top3*/	
 	.top3{
