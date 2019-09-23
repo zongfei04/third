@@ -121,21 +121,32 @@ function top1L(){
 	}
 }
 function top2(){
-	var aBox = document.querySelectorAll('.top2 .top2-d>div')
+	var oBox = document.querySelector('.top2 .top2-d')
+	var aBli = oBox.querySelectorAll('.top2 .top2-d li')
+	console.log(aBli)
 	var aLi = document.querySelectorAll('.top2 .top2-ul li')
 	for(var i=0;i<aLi.length;i++){
 		aLi[0].style.width = '25px';
 		aLi[0].style.backgroundColor = 'rgba(255,255,255,0.8)';
-		aLi[i].index = i
+		aLi[i].index = i;
 		aLi[i].onclick = function(){
-			for(var j=0;j<aBox.length;j++){
-				aBox[j].style.display = 'none'
+			for(var j=0;j<aLi.length;j++){
 				aLi[j].style.width = '15px';
 				aLi[j].style.backgroundColor = 'rgba(255,255,255,0.2)';
 			}
-			aBox[this.index].style.display = 'block';
 			this.style.width = '25px';
 			this.style.backgroundColor = 'rgba(255,255,255,0.8)';
+			switch(this.index){
+				case 0:
+					oBox.style.left = '0px';
+					break
+				case 1:
+					oBox.style.left = '-100%';
+					break
+				case 2:
+					oBox.style.left = '-200%';
+					break
+			}
 		}
 	}
 }

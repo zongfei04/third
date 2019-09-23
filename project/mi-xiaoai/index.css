@@ -272,25 +272,31 @@
 	.top2{
 		height: 480px;
 		width: 100%;
+		overflow: hidden;
 		position: relative;
 	}
-	.top2 .top2-d .top2-d01{
-		display: block;
+	.top2 .top2-d{
+		position: absolute;
+		top: 0px;
+		left: 0px;
+		width: 5709px;
 		height: 480px;
-		width: 100%;
+		transition: all 1s;
+	}
+	.top2 .top2-d li{
+		float: left;
+		width: 1903px;
+		height: 100%;
+	}
+	.top2 .top2-d .top2-d01{
 		background-image: url(img/top2-1.png);
 		background-size: auto 480px;
 		background-position: center;
-		overflow: hidden;
 	}
 	.top2 .top2-d .top2-d02{
-		display: none;
-		height: 480px;
-		width: 100%;
 		background-image: url(img/top2-2.jpg);
 		background-size: auto 480px;
 		background-position: center;
-		overflow: hidden;
 	}
 	.top2 .top2-d .top2-d02 p{
 		margin-top: 120px;
@@ -354,13 +360,10 @@
 		transition: all 0.3s;
 	}
 	.top2 .top2-d .top2-d03{
-		display: none;
-		height: 480px;
-		width: 100%;
+		position: relative;
 		background-image: url(img/top2-3.png);
 		background-size: auto 480px;
 		background-position: center;
-		overflow: hidden;
 	}
 	.top2 .top2-d .top2-d03 span{
 		display: inline-block;

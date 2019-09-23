@@ -24,11 +24,9 @@
 <script src="js/jquery-1.12.4.js"></script>
 <script>
 	$.prototype.setColor = function(options){
-		var defaults = {background:'red'}
-		options = $.extend({},defaults,options)
-		console.log(options)
-		this.each(function(){
-			this.style.background = options.background;
+		console.log(this)
+		this.each(function(index,value){
+			value.style.background = options.background;
 		})
 		return this;
 	}
