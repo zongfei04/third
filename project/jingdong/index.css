@@ -1,0 +1,146 @@
+/*公共样式*/
+    body{
+    	font-size: 12px;
+    }
+	.floor{
+		width: 100%;
+		height: 500px;
+		margin-bottom: 10px;
+		background-color: gray;
+	}
+	.container{
+		width: 1200px;
+		margin-right: auto;
+		margin-left: auto;
+	}
+	li{
+		list-style: none;
+	}
+	a{
+		text-decoration: none;
+		color: #4d555d;
+	}
+	a.link:hover{
+		color: #ea675a;
+	}
+	.fl{
+		float: left;
+	}
+	.fr{
+		float: right;
+	}
+	.clearfix:after{
+		container: '';
+		display: block;
+		clear: both;
+		height: 0;
+		visibility: hidden;
+	}
+	.clearfix{
+		*zoom:1;
+	}
+	.transition{
+		transition: all 0.5s;
+	}
+	.dropdown{
+		position: relative;
+	}
+	.dropdown-layer{
+		display: none;
+		position: absolute;
+	}
+/*top1*/	
+	.top1{
+		height: 44px;
+		background-color: #f3f5f7;
+	}
+	.top1 .container .top1-left{
+		height: 44px;
+		line-height: 44px;
+	}
+	.top1-left .login{
+		color: #ea675a;
+	}
+	.top1 .container .top1-left li{
+		margin-right: 5px;
+	}
+
+
+
+	.top1-right .dropdown{
+		position: relative;
+	}
+	.top1-right .dropdown .dropdown-toggle{
+		display: block;
+		height: 44px;
+		line-height: 44px;
+		/*background-color: #fff;*/
+		padding: 0px 5px;
+		border-left: 1px solid #f3f5f7;
+		border-right: 1px solid #f3f5f7;
+	}
+	.dropdown .dropdown-layer{
+		background-color: #fff;
+		border: 1px solid #f3f5f7;
+		border-top: none;
+	}
+	.dropdown .dropdown-layer .menu-item{
+		height: 30px;
+		line-height: 30px;
+		white-space: nowrap;
+		padding: 0px 5px;
+	}	
+	.top1 .menu-item:hover{
+		background-color: #f3f5f7;
+	}
+	/*
+	.top1 .dropdown:hover .dropdown-layer{
+		display: block;
+	}
+	.top1 .dropdown:hover .dropdown-toggle{
+		background-color: #fff;
+	}
+	.top1 .dropdown:hover .dropdown-arrow{
+		transform: rotate(180deg);
+	}
+	*/
+	.top1 .menu-active{
+		background-color: #fff;
+	}
+	.top1 .menu-active .dropdown-arrow{
+		transform: rotate(180deg);
+	}
+/*top2*/	
+	.top2{
+		width: 100%;
+		height: 100px;
+		background-color: blue;
+	}
+/*top3*/	
+	.top3{
+		width: 100%;
+		height: 450px;
+		background-color: red;
+	}
+/*top4*/	
+	.top4{
+		width: 100%;
+		height: 300px;
+		background-color: green;
+	}	
+/*floor1*/	
+
+/*floor2*/	
+
+/*floor3*/	
+
+/*floor4*/	
+
+/*floor5*/	
+	
+/*footer*/	
+	.footer{
+		width: 100%;
+		height: 200px;
+		background-color: yellow;
+	}					
